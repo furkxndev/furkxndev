@@ -4,15 +4,6 @@
   </a>
 </div>
 
-<p align="center">
-  <a href="https://furkxndev.com"><img alt="Portfolyo" src="https://img.shields.io/badge/Portfolyo-furkxndev.com-0d1117?style=flat-square&labelColor=0d1117&color=58a6ff&logo=googlechrome&logoColor=58a6ff"></a>
-  <a href="https://www.linkedin.com/in/furkxndev/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-furkxndev-0d1117?style=flat-square&labelColor=0d1117&color=0A66C2&logo=linkedin&logoColor=0A66C2"></a>
-  <a href="https://x.com/furkxndev"><img alt="X" src="https://img.shields.io/badge/X-furkxndev-0d1117?style=flat-square&labelColor=0d1117&color=8b949e&logo=x&logoColor=8b949e"></a>
-  <a href="mailto:furkxndev@gmail.com"><img alt="E-posta" src="https://img.shields.io/badge/E--posta-furkxndev@gmail.com-0d1117?style=flat-square&labelColor=0d1117&color=3fb950&logo=gmail&logoColor=3fb950"></a>
-</p>
-
-<br>
-
 <div align="center">
   <img src="assets/terminal.svg" width="100%" alt="whoami — odak alanları ve vitrindeki projeler">
 </div>
@@ -27,56 +18,9 @@ Yapay zekâyı süs olarak değil ürünün merkezinde kullanıyorum. Yan taraft
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="22"> &nbsp;Teknolojiler
 
-<table>
-<tr><td><b>Diller</b></td><td>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white">
-</td></tr>
-<tr><td><b>Frontend</b></td><td>
-<img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black">
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white">
-<img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
-<img src="https://img.shields.io/badge/Zustand-433E38?style=flat-square&logo=react&logoColor=white">
-</td></tr>
-<tr><td><b>Mobil</b></td><td>
-<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black">
-<img src="https://img.shields.io/badge/Expo_Router-000020?style=flat-square&logo=expo&logoColor=white">
-<img src="https://img.shields.io/badge/Reanimated-001A72?style=flat-square&logo=react&logoColor=white">
-</td></tr>
-<tr><td><b>Backend</b></td><td>
-<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white">
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white">
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white">
-<img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white">
-</td></tr>
-<tr><td><b>Veri</b></td><td>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white">
-<img src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white">
-<img src="https://img.shields.io/badge/Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white">
-</td></tr>
-<tr><td><b>DevOps</b></td><td>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white">
-</td></tr>
-<tr><td><b>Oyun & AI</b></td><td>
-<img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white">
-<img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white">
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white">
-</td></tr>
-</table>
+<div align="center">
+  <img width="100%" alt="Kullandığım teknolojiler" src="assets/tech.svg">
+</div>
 
 <br>
 
@@ -169,17 +113,11 @@ Unity ile iki mobil 2D oyun: troll platformer ve fizik tabanlı tırmanma.
 </tr>
 </table>
 
-<sub>🔒 Özel repo — kod ve mimari hakkında detay için memnuniyetle anlatırım.</sub>
-
-<br>
-
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="22"> &nbsp;Deneyim & Eğitim
 
-| | | |
-| :--- | :--- | ---: |
-| 🟢 | **Viofun** — Bilgisayar Mühendisliği Stajyeri | `Ağu 2026 — devam ediyor` |
-| ⚪ | **Moon Workshop** — Bilgisayar Mühendisliği Stajyeri | `Tem 2025 — Ağu 2025` |
-| 🎓 | **Fırat Üniversitesi** — Bilgisayar Mühendisliği, Lisans | `Eki 2023 — Eki 2027` |
+<div align="center">
+  <img width="100%" alt="Deneyim ve eğitim" src="assets/experience.svg">
+</div>
 
 <br>
 
@@ -190,18 +128,17 @@ Unity ile iki mobil 2D oyun: troll platformer ve fizik tabanlı tırmanma.
   <img width="49%" alt="En çok kullandığım diller" src="assets/languages.svg">
 </div>
 
-<sub>Kartlar üçüncü parti bir servisten değil, <a href="scripts/build-stats.mjs"><code>scripts/build-stats.mjs</code></a> ile bu repoda üretiliyor; <a href=".github/workflows/stats.yml">GitHub Actions</a> her gün yeniliyor.</sub>
-
 <br>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Envelope.png" width="22"> &nbsp;İletişim
 
 Yeni projelere ve iş birliklerine açığım — bir fikri konuşmak istersen yazman yeterli.
 
-<p>
-  <a href="mailto:furkxndev@gmail.com"><b>furkxndev@gmail.com</b></a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/furkxndev/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://furkxndev.com">furkxndev.com</a>
+<p align="center">
+  <a href="mailto:furkxndev@gmail.com"><img width="24%" alt="E-posta: furkxndev@gmail.com" src="assets/contact-mail.svg"></a>
+  <a href="https://www.linkedin.com/in/furkxndev/"><img width="24%" alt="LinkedIn: furkxndev" src="assets/contact-linkedin.svg"></a>
+  <a href="https://x.com/furkxndev"><img width="24%" alt="X: @furkxndev" src="assets/contact-x.svg"></a>
+  <a href="https://furkxndev.com"><img width="24%" alt="Portfolyo: furkxndev.com" src="assets/contact-web.svg"></a>
 </p>
 
 <br>

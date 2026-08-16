@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 322" width="900" height="322" role="img" aria-label="Kullandığım teknolojiler">
+  <title>Kullandığım teknolojiler</title>
+  <defs><clipPath id="c"><rect width="900" height="322" rx="12"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="322" fill="#0d1117"/>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.050;0.150;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.050;0.150;1" dur="2.2s" fill="freeze"/>
+      <rect x="24" y="33" width="3" height="12" rx="1.5" fill="#58a6ff"/>
+      <text x="37" y="43.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Diller</text>
+    </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.080;0.180;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.080;0.180;1" dur="2.2s" fill="freeze"/>
+        <rect x="148" y="26" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="159" y="43.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">TypeScript</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.102;0.202;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.102;0.202;1" dur="2.2s" fill="freeze"/>
+        <rect x="252" y="26" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="263" y="43.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">JavaScript</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.124;0.224;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.124;0.224;1" dur="2.2s" fill="freeze"/>
+        <rect x="356" y="26" width="52" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="367" y="43.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Java</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.146;0.246;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.146;0.246;1" dur="2.2s" fill="freeze"/>
+        <rect x="415" y="26" width="37" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="426" y="43.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">C#</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.168;0.268;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.168;0.268;1" dur="2.2s" fill="freeze"/>
+        <rect x="459" y="26" width="67" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="470" y="43.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Python</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.190;0.290;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.190;0.290;1" dur="2.2s" fill="freeze"/>
+        <rect x="533" y="26" width="45" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="544" y="43.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">SQL</text>
+      </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.080;0.180;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.080;0.180;1" dur="2.2s" fill="freeze"/>
+      <rect x="24" y="75" width="3" height="12" rx="1.5" fill="#3fb950"/>
+      <text x="37" y="85.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Frontend</text>
+    </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.212;0.312;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.212;0.312;1" dur="2.2s" fill="freeze"/>
+        <rect x="148" y="68" width="82" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="159" y="85.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">React 19</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.234;0.334;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.234;0.334;1" dur="2.2s" fill="freeze"/>
+        <rect x="237" y="68" width="75" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="248" y="85.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Next.js</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.256;0.356;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.256;0.356;1" dur="2.2s" fill="freeze"/>
+        <rect x="319" y="68" width="52" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="330" y="85.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Vite</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.278;0.378;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.278;0.378;1" dur="2.2s" fill="freeze"/>
+        <rect x="378" y="68" width="105" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="389" y="85.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Tailwind v4</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.300;0.400;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.300;0.400;1" dur="2.2s" fill="freeze"/>
+        <rect x="490" y="68" width="75" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="501" y="85.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Zustand</text>
+      </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.110;0.210;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.110;0.210;1" dur="2.2s" fill="freeze"/>
+      <rect x="24" y="117" width="3" height="12" rx="1.5" fill="#a371f7"/>
+      <text x="37" y="127.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Mobil</text>
+    </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.322;0.422;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.322;0.422;1" dur="2.2s" fill="freeze"/>
+        <rect x="148" y="110" width="112" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="159" y="127.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">React Native</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.344;0.444;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.344;0.444;1" dur="2.2s" fill="freeze"/>
+        <rect x="267" y="110" width="105" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="278" y="127.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Expo Router</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.366;0.466;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.366;0.466;1" dur="2.2s" fill="freeze"/>
+        <rect x="379" y="110" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="390" y="127.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Reanimated</text>
+      </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.140;0.240;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.140;0.240;1" dur="2.2s" fill="freeze"/>
+      <rect x="24" y="159" width="3" height="12" rx="1.5" fill="#f78166"/>
+      <text x="37" y="169.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Backend</text>
+    </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.388;0.488;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.388;0.488;1" dur="2.2s" fill="freeze"/>
+        <rect x="148" y="152" width="67" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="159" y="169.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">NestJS</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.410;0.510;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.410;0.510;1" dur="2.2s" fill="freeze"/>
+        <rect x="222" y="152" width="105" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="233" y="169.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Spring Boot</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.432;0.532;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.432;0.532;1" dur="2.2s" fill="freeze"/>
+        <rect x="334" y="152" width="75" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="345" y="169.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Node.js</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.454;0.554;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.454;0.554;1" dur="2.2s" fill="freeze"/>
+        <rect x="416" y="152" width="75" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="427" y="169.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Express</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.476;0.576;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.476;0.576;1" dur="2.2s" fill="freeze"/>
+        <rect x="498" y="152" width="90" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="509" y="169.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Socket.IO</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.498;0.598;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.498;0.598;1" dur="2.2s" fill="freeze"/>
+        <rect x="595" y="152" width="45" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="606" y="169.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">JWT</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.520;0.620;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.520;0.620;1" dur="2.2s" fill="freeze"/>
+        <rect x="647" y="152" width="75" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="658" y="169.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">OpenAPI</text>
+      </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.170;0.270;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.170;0.270;1" dur="2.2s" fill="freeze"/>
+      <rect x="24" y="201" width="3" height="12" rx="1.5" fill="#d29922"/>
+      <text x="37" y="211.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Veri</text>
+    </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.542;0.642;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.542;0.642;1" dur="2.2s" fill="freeze"/>
+        <rect x="148" y="194" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="159" y="211.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">PostgreSQL</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.564;0.664;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.564;0.664;1" dur="2.2s" fill="freeze"/>
+        <rect x="252" y="194" width="60" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="263" y="211.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">MySQL</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.586;0.686;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.586;0.686;1" dur="2.2s" fill="freeze"/>
+        <rect x="319" y="194" width="67" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="330" y="211.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Prisma</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.608;0.708;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.608;0.708;1" dur="2.2s" fill="freeze"/>
+        <rect x="393" y="194" width="75" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="404" y="211.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">TypeORM</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.630;0.730;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.630;0.730;1" dur="2.2s" fill="freeze"/>
+        <rect x="475" y="194" width="90" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="486" y="211.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Sequelize</text>
+      </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.200;0.300;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.200;0.300;1" dur="2.2s" fill="freeze"/>
+      <rect x="24" y="243" width="3" height="12" rx="1.5" fill="#56d4dd"/>
+      <text x="37" y="253.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">DevOps</text>
+    </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.652;0.752;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.652;0.752;1" dur="2.2s" fill="freeze"/>
+        <rect x="148" y="236" width="67" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="159" y="253.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Docker</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.674;0.774;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.674;0.774;1" dur="2.2s" fill="freeze"/>
+        <rect x="222" y="236" width="60" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="233" y="253.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">nginx</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.696;0.796;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.696;0.796;1" dur="2.2s" fill="freeze"/>
+        <rect x="289" y="236" width="127" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="300" y="253.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">GitHub Actions</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.718;0.818;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.718;0.818;1" dur="2.2s" fill="freeze"/>
+        <rect x="423" y="236" width="45" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="434" y="253.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Git</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.740;0.840;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.740;0.840;1" dur="2.2s" fill="freeze"/>
+        <rect x="475" y="236" width="45" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="486" y="253.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Bun</text>
+      </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.230;0.330;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.230;0.330;1" dur="2.2s" fill="freeze"/>
+      <rect x="24" y="285" width="3" height="12" rx="1.5" fill="#db61a2"/>
+      <text x="37" y="295.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Oyun &amp; AI</text>
+    </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.762;0.862;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.762;0.862;1" dur="2.2s" fill="freeze"/>
+        <rect x="148" y="278" width="60" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="159" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Unity</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.784;0.884;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.784;0.884;1" dur="2.2s" fill="freeze"/>
+        <rect x="215" y="278" width="37" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="226" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">C#</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.806;0.906;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.806;0.906;1" dur="2.2s" fill="freeze"/>
+        <rect x="259" y="278" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="270" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Gemini API</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.828;0.928;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.828;0.928;1" dur="2.2s" fill="freeze"/>
+        <rect x="363" y="278" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="374" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Playwright</text>
+      </g>
+    <rect x="0.5" y="0.5" width="899" height="321" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>
