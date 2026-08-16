@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444 292" width="444" height="292" role="img" aria-label="En çok kullandığım diller">
+  <title>En çok kullandığım diller</title>
+  <defs><clipPath id="c"><rect width="444" height="292" rx="12"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="444" height="292" fill="#0d1117"/>
+    <rect x="0" y="0" width="444" height="3" fill="#1f6feb" opacity="0.55"/>
+    <text x="24" y="34" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="600" fill="#58a6ff" letter-spacing="0.4">En çok kullandığım diller</text>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.12;0.24;1" dur="2.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+                        values="0 10;0 10;0 0;0 0" keyTimes="0;0.12;0.24;1" dur="2.4s" fill="freeze"/>
+      <text x="24" y="66" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+            font-size="12.5" fill="#c9d1d9">C#</text>
+      <text x="420" y="66" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="12" fill="#6e7681">44.7%</text>
+      <rect x="24" y="73" width="396" height="7" rx="3.5" fill="#161b22"/>
+      <rect x="24" y="73" width="0" height="7" rx="3.5" fill="#178600">
+        <animate attributeName="width" values="0;0;177;177"
+                 keyTimes="0;0.12;0.5700000000000001;1" dur="2.4s" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2;0.32;1" dur="2.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+                        values="0 10;0 10;0 0;0 0" keyTimes="0;0.2;0.32;1" dur="2.4s" fill="freeze"/>
+      <text x="24" y="103" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+            font-size="12.5" fill="#c9d1d9">TypeScript</text>
+      <text x="420" y="103" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="12" fill="#6e7681">25.4%</text>
+      <rect x="24" y="110" width="396" height="7" rx="3.5" fill="#161b22"/>
+      <rect x="24" y="110" width="0" height="7" rx="3.5" fill="#3178c6">
+        <animate attributeName="width" values="0;0;101;101"
+                 keyTimes="0;0.2;0.65;1" dur="2.4s" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.4;1" dur="2.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+                        values="0 10;0 10;0 0;0 0" keyTimes="0;0.28;0.4;1" dur="2.4s" fill="freeze"/>
+      <text x="24" y="140" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+            font-size="12.5" fill="#c9d1d9">Java</text>
+      <text x="420" y="140" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="12" fill="#6e7681">9.4%</text>
+      <rect x="24" y="147" width="396" height="7" rx="3.5" fill="#161b22"/>
+      <rect x="24" y="147" width="0" height="7" rx="3.5" fill="#b07219">
+        <animate attributeName="width" values="0;0;37;37"
+                 keyTimes="0;0.28;0.73;1" dur="2.4s" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.36;0.48;1" dur="2.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+                        values="0 10;0 10;0 0;0 0" keyTimes="0;0.36;0.48;1" dur="2.4s" fill="freeze"/>
+      <text x="24" y="177" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+            font-size="12.5" fill="#c9d1d9">JavaScript</text>
+      <text x="420" y="177" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="12" fill="#6e7681">6.4%</text>
+      <rect x="24" y="184" width="396" height="7" rx="3.5" fill="#161b22"/>
+      <rect x="24" y="184" width="0" height="7" rx="3.5" fill="#f1e05a">
+        <animate attributeName="width" values="0;0;25;25"
+                 keyTimes="0;0.36;0.81;1" dur="2.4s" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.44;0.56;1" dur="2.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+                        values="0 10;0 10;0 0;0 0" keyTimes="0;0.44;0.56;1" dur="2.4s" fill="freeze"/>
+      <text x="24" y="214" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+            font-size="12.5" fill="#c9d1d9">CSS</text>
+      <text x="420" y="214" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="12" fill="#6e7681">5.4%</text>
+      <rect x="24" y="221" width="396" height="7" rx="3.5" fill="#161b22"/>
+      <rect x="24" y="221" width="0" height="7" rx="3.5" fill="#663399">
+        <animate attributeName="width" values="0;0;21;21"
+                 keyTimes="0;0.44;0.89;1" dur="2.4s" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.52;0.64;1" dur="2.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+                        values="0 10;0 10;0 0;0 0" keyTimes="0;0.52;0.64;1" dur="2.4s" fill="freeze"/>
+      <text x="24" y="251" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+            font-size="12.5" fill="#c9d1d9">HTML</text>
+      <text x="420" y="251" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="12" fill="#6e7681">5.3%</text>
+      <rect x="24" y="258" width="396" height="7" rx="3.5" fill="#161b22"/>
+      <rect x="24" y="258" width="0" height="7" rx="3.5" fill="#e34c26">
+        <animate attributeName="width" values="0;0;21;21"
+                 keyTimes="0;0.52;0.95;1" dur="2.4s" fill="freeze"/>
+      </rect>
+    </g>
+    <rect x="0.5" y="0.5" width="443" height="291" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

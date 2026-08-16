@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 292" width="900" height="292" role="img" aria-label="furkan@github terminal — whoami, odak alanları ve vitrindeki projeler">
+  <title>furkan@github — whoami</title>
+
+  <defs>
+    <clipPath id="win"><rect x="0" y="0" width="900" height="292" rx="12"/></clipPath>
+
+    <clipPath id="L0"><rect x="30" y="76" height="22" width="0">
+      <animate attributeName="width" values="0;0;97;97" keyTimes="0;0.02;0.06;1" dur="15s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="L1"><rect x="30" y="102" height="22" width="0">
+      <animate attributeName="width" values="0;0;368;368" keyTimes="0;0.11;0.15;1" dur="15s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="L2"><rect x="30" y="136" height="22" width="0">
+      <animate attributeName="width" values="0;0;151;151" keyTimes="0;0.24;0.28;1" dur="15s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="L3"><rect x="30" y="162" height="22" width="0">
+      <animate attributeName="width" values="0;0;602;602" keyTimes="0;0.33;0.40;1" dur="15s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="L4"><rect x="30" y="196" height="22" width="0">
+      <animate attributeName="width" values="0;0;160;160" keyTimes="0;0.50;0.54;1" dur="15s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="L5"><rect x="30" y="222" height="22" width="0">
+      <animate attributeName="width" values="0;0;530;530" keyTimes="0;0.59;0.67;1" dur="15s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <rect width="900" height="292" fill="#0d1117"/>
+
+    <!-- başlık çubuğu -->
+    <rect width="900" height="40" fill="#161b22"/>
+    <line x1="0" y1="40" x2="900" y2="40" stroke="#21262d"/>
+    <circle cx="26" cy="20" r="6" fill="#ff5f57"/>
+    <circle cx="48" cy="20" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="20" r="6" fill="#28c840"/>
+    <text x="450" y="25" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="12.5" fill="#6e7681">furkan@github — zsh</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">
+      <!-- $ whoami -->
+      <g clip-path="url(#L0)">
+        <text x="30" y="92"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> whoami</tspan></text>
+      </g>
+      <g clip-path="url(#L1)">
+        <text x="30" y="118" fill="#8b949e">Furkan Coşkun · Full-stack Geliştirici</text>
+      </g>
+
+      <!-- $ cat odak.txt -->
+      <g clip-path="url(#L2)">
+        <text x="30" y="152"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> cat odak.txt</tspan></text>
+      </g>
+      <g clip-path="url(#L3)">
+        <text x="30" y="178" fill="#8b949e">gerçek zamanlı sistemler · ödeme akışları · LLM destekli ürünler</text>
+      </g>
+
+      <!-- $ ls vitrin/ -->
+      <g clip-path="url(#L4)">
+        <text x="30" y="212"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> ls -1 vitrin/</tspan></text>
+      </g>
+      <g clip-path="url(#L5)">
+        <text x="30" y="238" fill="#58a6ff">masapp  gezio  patibak  aifiyet  karanlik-tuzak  top-climbing</text>
+      </g>
+
+      <!-- son prompt + yanıp sönen imleç -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.68;0.70;1" dur="15s" repeatCount="indefinite"/>
+        <text x="30" y="272" fill="#3fb950">$</text>
+        <rect x="44" y="257" width="9" height="18" fill="#58a6ff">
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <rect x="0.5" y="0.5" width="899" height="291" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

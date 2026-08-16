@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="Furkan Coşkun — Full-stack Geliştirici">
+  <title>Furkan Coşkun — Full-stack Geliştirici</title>
+
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#11161f"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+
+    <linearGradient id="nameSweep" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0" spreadMethod="repeat">
+      <stop offset="0%" stop-color="#e6edf3"/>
+      <stop offset="42%" stop-color="#e6edf3"/>
+      <stop offset="50%" stop-color="#79c0ff"/>
+      <stop offset="58%" stop-color="#e6edf3"/>
+      <stop offset="100%" stop-color="#e6edf3"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        from="-420 0" to="0 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="orbBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a371f7" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#a371f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.1" fill="#30363d"/>
+    </pattern>
+
+    <clipPath id="card">
+      <rect x="0" y="0" width="900" height="240" rx="16"/>
+    </clipPath>
+
+    <clipPath id="t0"><rect x="72" y="130" height="28" width="0">
+      <animate attributeName="width" values="0;322;322" keyTimes="0;0.075;1" dur="16s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="t1"><rect x="72" y="130" height="28" width="0">
+      <animate attributeName="width" values="0;0;299;299" keyTimes="0;0.25;0.325;1" dur="16s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="t2"><rect x="72" y="130" height="28" width="0">
+      <animate attributeName="width" values="0;0;333;333" keyTimes="0;0.5;0.575;1" dur="16s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="t3"><rect x="72" y="130" height="28" width="0">
+      <animate attributeName="width" values="0;0;345;345" keyTimes="0;0.75;0.825;1" dur="16s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="240" fill="url(#cardBg)"/>
+    <rect width="900" height="240" fill="url(#dots)" opacity="0.45"/>
+
+    <circle cx="150" cy="40" r="230" fill="url(#orbBlue)">
+      <animate attributeName="cx" values="150;280;150" dur="19s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="40;120;40" dur="23s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="780" cy="200" r="200" fill="url(#orbViolet)">
+      <animate attributeName="cx" values="780;670;780" dur="25s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="200;110;200" dur="21s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- sağdaki yörünge süsü -->
+    <g stroke="#30363d" fill="none">
+      <g transform="rotate(0 762 120)">
+        <animateTransform attributeName="transform" type="rotate"
+                          from="0 762 120" to="360 762 120" dur="44s" repeatCount="indefinite"/>
+        <circle cx="762" cy="120" r="78" stroke-dasharray="3 9" opacity="0.85"/>
+        <circle cx="762" cy="42" r="3.5" fill="#58a6ff" stroke="none"/>
+      </g>
+      <g transform="rotate(0 762 120)">
+        <animateTransform attributeName="transform" type="rotate"
+                          from="360 762 120" to="0 762 120" dur="30s" repeatCount="indefinite"/>
+        <circle cx="762" cy="120" r="54" stroke-dasharray="2 7" opacity="0.7"/>
+        <circle cx="816" cy="120" r="3" fill="#a371f7" stroke="none"/>
+      </g>
+      <circle cx="762" cy="120" r="30" stroke="#21262d"/>
+    </g>
+    <text x="762" y="127" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="17" fill="#58a6ff" text-anchor="middle" opacity="0.9">&lt;/&gt;</text>
+
+    <!-- sol kenar aksanı -->
+    <rect x="0" y="0" width="4" height="240" fill="url(#edge)"/>
+
+    <!-- içerik -->
+    <text x="48" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="13" fill="#6e7681" letter-spacing="1.5">~/github.com/furkxndev</text>
+
+    <text x="48" y="108" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="44" font-weight="700" fill="url(#nameSweep)" letter-spacing="-0.5">Furkan Coşkun</text>
+
+    <text x="48" y="151" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="19" fill="#3fb950">❯</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#c9d1d9">
+      <g opacity="1">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.225;0.25;1" dur="16s" repeatCount="indefinite"/>
+        <g clip-path="url(#t0)"><text x="76" y="151">Full-stack ürün geliştirme</text></g>
+        <rect y="134" width="9" height="21" fill="#58a6ff" x="76">
+          <animate attributeName="x" values="76;377;377" keyTimes="0;0.075;1" dur="16s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.2501;0.475;0.5;1" dur="16s" repeatCount="indefinite"/>
+        <g clip-path="url(#t1)"><text x="76" y="151">Gerçek zamanlı sistemler</text></g>
+        <rect y="134" width="9" height="21" fill="#58a6ff" x="76">
+          <animate attributeName="x" values="76;76;354;354" keyTimes="0;0.25;0.325;1" dur="16s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.5001;0.725;0.75;1" dur="16s" repeatCount="indefinite"/>
+        <g clip-path="url(#t2)"><text x="76" y="151">Yapay zekâ destekli ürünler</text></g>
+        <rect y="134" width="9" height="21" fill="#58a6ff" x="76">
+          <animate attributeName="x" values="76;76;388;388" keyTimes="0;0.5;0.575;1" dur="16s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.7501;0.975;1" dur="16s" repeatCount="indefinite"/>
+        <g clip-path="url(#t3)"><text x="76" y="151">Unity ile 2D oyun geliştirme</text></g>
+        <rect y="134" width="9" height="21" fill="#58a6ff" x="76">
+          <animate attributeName="x" values="76;76;400;400" keyTimes="0;0.75;0.825;1" dur="16s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <g font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#6e7681">
+      <text x="48" y="196">Bilgisayar Mühendisliği · Fırat Üniversitesi · Antalya, Türkiye</text>
+    </g>
+
+    <g transform="translate(48, 210)">
+      <circle cx="5" cy="5" r="4.5" fill="#3fb950">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="5" cy="5" r="4.5" fill="none" stroke="#3fb950" stroke-width="1.2">
+        <animate attributeName="r" values="4.5;12;12" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0;0" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="20" y="10" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+            font-size="13.5" fill="#3fb950">Yeni projelere ve iş birliklerine açık</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="899" height="239" rx="16" fill="none" stroke="#21262d"/>
+  </g>
+</svg>
