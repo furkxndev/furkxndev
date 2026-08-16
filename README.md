@@ -10,9 +10,9 @@
 
 <br>
 
-Uçtan uca ürün geliştiriyorum: arayüz, API ve veritabanı şeması aynı kafadan çıkıyor. Bir işi "çalışıyor" noktasında bırakmıyorum — kimlik doğrulama, Socket.IO ile gerçek zamanlı senkron, ödeme entegrasyonu, migration tabanlı şema yönetimi ve Docker ile dağıtım da işin parçası.
-
-Yapay zekâyı süs olarak değil ürünün merkezinde kullanıyorum. Yan tarafta Unity ile fizik tabanlı 2D oyunlar yazıyor, tekrar eden işleri Playwright + GitHub Actions ile otomatikleştiriyorum.
+<div align="center">
+  <img width="100%" alt="Nasıl çalışıyorum" src="assets/about.svg">
+</div>
 
 <br>
 

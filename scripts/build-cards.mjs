@@ -23,6 +23,37 @@ const TECH = [
   { label: "Oyun & AI", accent: "#db61a2", items: ["Unity", "C#", "Gemini API", "Playwright"] },
 ];
 
+/**
+ * "Nasıl çalışıyorum" kartı. Satırlar elle bölünmüş: SVG metni kendiliğinden
+ * kaydırmaz, sütun genişliği 199px olduğu için satır başına ~30 karakter sınırı var.
+ */
+const ABOUT = [
+  {
+    index: "01",
+    accent: "#58a6ff",
+    title: "Uçtan uca",
+    lines: ["Arayüz, API ve veritabanı", "şeması aynı kafadan çıkar."],
+  },
+  {
+    index: "02",
+    accent: "#3fb950",
+    title: "Bitmiş iş",
+    lines: ["Kimlik doğrulama, gerçek", "zamanlı senkron, ödeme ve", "Docker ile dağıtım dahil."],
+  },
+  {
+    index: "03",
+    accent: "#a371f7",
+    title: "AI merkezde",
+    lines: ["Yapay zekâ süs değil;", "ürünün çekirdeğinde çalışır."],
+  },
+  {
+    index: "04",
+    accent: "#d29922",
+    title: "Otomasyon",
+    lines: ["Tekrar eden işler Playwright", "ve Actions'a devredilir."],
+  },
+];
+
 const TIMELINE = [
   { title: "Viofun", detail: "Bilgisayar Mühendisliği Stajyeri", period: "Ağu 2026 — devam ediyor", current: true },
   { title: "Moon Workshop", detail: "Bilgisayar Mühendisliği Stajyeri", period: "Tem 2025 — Ağu 2025" },
@@ -67,6 +98,51 @@ ${body}
   </g>
 </svg>
 `;
+}
+
+// -------------------------------------------------------------- nasıl çalışırım
+
+function aboutCard() {
+  const W = 900;
+  const COL_W = 199;
+  const GAP = 18;
+  const X0 = 24;
+  const LINE_H = 18;
+  const maxLines = Math.max(...ABOUT.map((a) => a.lines.length));
+  // 118 = ilk açıklama satırının taban çizgisi; sonrasına 28px alt boşluk kalıyor
+  const H = 118 + (maxLines - 1) * LINE_H + 28;
+
+  let body = `
+    <text x="${X0}" y="34" font-family="${SANS}" font-size="14" font-weight="600" fill="#58a6ff" letter-spacing="0.4">Nasıl çalışıyorum</text>`;
+
+  ABOUT.forEach((item, i) => {
+    const x = X0 + i * (COL_W + GAP);
+    const delay = 0.14 + i * 0.11;
+
+    if (i > 0) {
+      body += `
+    <line x1="${x - GAP / 2}" y1="62" x2="${x - GAP / 2}" y2="${H - 22}" stroke="#21262d">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;${delay.toFixed(3)};${(delay + 0.1).toFixed(3)};1" dur="2.2s" fill="freeze"/>
+    </line>`;
+    }
+
+    let lines = "";
+    item.lines.forEach((line, li) => {
+      lines += `
+      <text x="${x}" y="${118 + li * LINE_H}" font-family="${SANS}" font-size="12.5" fill="#8b949e">${esc(line)}</text>`;
+    });
+
+    body += `
+    <g opacity="0">${enter(delay)}
+      <text x="${x}" y="${76}" font-family="${MONO}" font-size="12" font-weight="700" fill="${item.accent}" letter-spacing="1">${esc(item.index)}</text>
+      <rect x="${x}" y="84" width="0" height="2" rx="1" fill="${item.accent}" opacity="0.75">
+        <animate attributeName="width" values="0;0;${COL_W - 40};${COL_W - 40}" keyTimes="0;${delay.toFixed(3)};${Math.min(delay + 0.35, 0.95).toFixed(3)};1" dur="2.2s" fill="freeze"/>
+      </rect>
+      <text x="${x}" y="${104}" font-family="${SANS}" font-size="14.5" font-weight="700" fill="#e6edf3">${esc(item.title)}</text>${lines}
+    </g>`;
+  });
+
+  return shell(W, H, "Nasıl çalışıyorum", body);
 }
 
 // ---------------------------------------------------------------- teknolojiler
@@ -216,6 +292,7 @@ function contactCard(c) {
 }
 
 mkdirSync("assets", { recursive: true });
+writeFileSync("assets/about.svg", aboutCard());
 writeFileSync("assets/tech.svg", techCard());
 writeFileSync("assets/experience.svg", experienceCard());
 for (const c of CONTACT) writeFileSync(`assets/${c.file}.svg`, contactCard(c));
