@@ -13,10 +13,10 @@
       <text x="24" y="66" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
             font-size="12.5" fill="#c9d1d9">C#</text>
       <text x="420" y="66" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-            font-size="12" fill="#6e7681">44.7%</text>
+            font-size="12" fill="#6e7681">43.4%</text>
       <rect x="24" y="73" width="396" height="7" rx="3.5" fill="#161b22"/>
       <rect x="24" y="73" width="0" height="7" rx="3.5" fill="#178600">
-        <animate attributeName="width" values="0;0;177;177"
+        <animate attributeName="width" values="0;0;172;172"
                  keyTimes="0;0.12;0.5700000000000001;1" dur="2.4s" fill="freeze"/>
       </rect>
     </g>
@@ -26,10 +26,10 @@
       <text x="24" y="103" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
             font-size="12.5" fill="#c9d1d9">TypeScript</text>
       <text x="420" y="103" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-            font-size="12" fill="#6e7681">25.4%</text>
+            font-size="12" fill="#6e7681">24.6%</text>
       <rect x="24" y="110" width="396" height="7" rx="3.5" fill="#161b22"/>
       <rect x="24" y="110" width="0" height="7" rx="3.5" fill="#3178c6">
-        <animate attributeName="width" values="0;0;101;101"
+        <animate attributeName="width" values="0;0;98;98"
                  keyTimes="0;0.2;0.65;1" dur="2.4s" fill="freeze"/>
       </rect>
     </g>
@@ -37,12 +37,12 @@
       <animateTransform attributeName="transform" type="translate" additive="sum"
                         values="0 10;0 10;0 0;0 0" keyTimes="0;0.28;0.4;1" dur="2.4s" fill="freeze"/>
       <text x="24" y="140" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
-            font-size="12.5" fill="#c9d1d9">Java</text>
+            font-size="12.5" fill="#c9d1d9">JavaScript</text>
       <text x="420" y="140" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-            font-size="12" fill="#6e7681">9.4%</text>
+            font-size="12" fill="#6e7681">9.1%</text>
       <rect x="24" y="147" width="396" height="7" rx="3.5" fill="#161b22"/>
-      <rect x="24" y="147" width="0" height="7" rx="3.5" fill="#b07219">
-        <animate attributeName="width" values="0;0;37;37"
+      <rect x="24" y="147" width="0" height="7" rx="3.5" fill="#f1e05a">
+        <animate attributeName="width" values="0;0;36;36"
                  keyTimes="0;0.28;0.73;1" dur="2.4s" fill="freeze"/>
       </rect>
     </g>
@@ -50,12 +50,12 @@
       <animateTransform attributeName="transform" type="translate" additive="sum"
                         values="0 10;0 10;0 0;0 0" keyTimes="0;0.36;0.48;1" dur="2.4s" fill="freeze"/>
       <text x="24" y="177" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
-            font-size="12.5" fill="#c9d1d9">JavaScript</text>
+            font-size="12.5" fill="#c9d1d9">Java</text>
       <text x="420" y="177" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-            font-size="12" fill="#6e7681">6.4%</text>
+            font-size="12" fill="#6e7681">9.1%</text>
       <rect x="24" y="184" width="396" height="7" rx="3.5" fill="#161b22"/>
-      <rect x="24" y="184" width="0" height="7" rx="3.5" fill="#f1e05a">
-        <animate attributeName="width" values="0;0;25;25"
+      <rect x="24" y="184" width="0" height="7" rx="3.5" fill="#b07219">
+        <animate attributeName="width" values="0;0;36;36"
                  keyTimes="0;0.36;0.81;1" dur="2.4s" fill="freeze"/>
       </rect>
     </g>
@@ -65,7 +65,7 @@
       <text x="24" y="214" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
             font-size="12.5" fill="#c9d1d9">CSS</text>
       <text x="420" y="214" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-            font-size="12" fill="#6e7681">5.4%</text>
+            font-size="12" fill="#6e7681">5.2%</text>
       <rect x="24" y="221" width="396" height="7" rx="3.5" fill="#161b22"/>
       <rect x="24" y="221" width="0" height="7" rx="3.5" fill="#663399">
         <animate attributeName="width" values="0;0;21;21"
@@ -78,10 +78,10 @@
       <text x="24" y="251" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
             font-size="12.5" fill="#c9d1d9">HTML</text>
       <text x="420" y="251" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-            font-size="12" fill="#6e7681">5.3%</text>
+            font-size="12" fill="#6e7681">5.1%</text>
       <rect x="24" y="258" width="396" height="7" rx="3.5" fill="#161b22"/>
       <rect x="24" y="258" width="0" height="7" rx="3.5" fill="#e34c26">
-        <animate attributeName="width" values="0;0;21;21"
+        <animate attributeName="width" values="0;0;20;20"
                  keyTimes="0;0.52;0.95;1" dur="2.4s" fill="freeze"/>
       </rect>
     </g>
