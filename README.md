@@ -4,6 +4,8 @@
   </a>
 </div>
 
+<br>
+
 <div align="center">
   <img src="assets/terminal.svg" width="100%" alt="whoami — odak alanları ve vitrindeki projeler">
 </div>
@@ -96,6 +98,16 @@
 
 <br>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-light.svg">
+    <img alt="Katkı grafiğimi yiyen yılan animasyonu" src="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-dark.svg">
+  </picture>
+</div>
+
+<br>
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Envelope.png" width="22"> &nbsp;İletişim
 
 Bir fikri konuşmak, birlikte bir şey kurmak ya da sadece merhaba demek için: en hızlısı e-posta.
@@ -106,16 +118,6 @@ Bir fikri konuşmak, birlikte bir şey kurmak ya da sadece merhaba demek için: 
   <a href="https://x.com/furkxndev"><img width="24%" alt="X: @furkxndev" src="assets/contact-x.svg"></a>
   <a href="https://furkxndev.com"><img width="24%" alt="Portfolyo: furkxndev.com" src="assets/contact-web.svg"></a>
 </p>
-
-<br>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-light.svg">
-    <img alt="Katkı grafiğimi yiyen yılan animasyonu" src="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-dark.svg">
-  </picture>
-</div>
 
 <br>
 
