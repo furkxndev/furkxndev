@@ -75,7 +75,8 @@
 
 <p align="center">
   <a href="https://github.com/furkxndev/Karanlik-Tuzak">Karanlık Tuzak</a> &nbsp;·&nbsp;
-  <a href="https://github.com/furkxndev/Top-Climbing">Top Climbing</a>
+  <a href="https://github.com/furkxndev/Top-Climbing">Top Climbing</a> &nbsp;·&nbsp;
+  <a href="https://github.com/furkxndev?tab=repositories">tüm depolar</a>
 </p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="22"> &nbsp;Deneyim & Eğitim
@@ -97,7 +98,7 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Envelope.png" width="22"> &nbsp;İletişim
 
-Yeni projelere ve iş birliklerine açığım — bir fikri konuşmak istersen yazman yeterli.
+Bir fikri konuşmak, birlikte bir şey kurmak ya da sadece merhaba demek için: en hızlısı e-posta.
 
 <p align="center">
   <a href="mailto:furkxndev@gmail.com"><img width="24%" alt="E-posta: furkxndev@gmail.com" src="assets/contact-mail.svg"></a>
@@ -109,5 +110,20 @@ Yeni projelere ve iş birliklerine açığım — bir fikri konuşmak istersen y
 <br>
 
 <div align="center">
-  <img alt="Katkı grafiği yılan animasyonu" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-light.svg">
+    <img alt="Katkı grafiğimi yiyen yılan animasyonu" src="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-dark.svg">
+  </picture>
 </div>
+
+<br>
+
+<p align="center">
+  <sub>
+    Bu sayfadaki kartların hepsi
+    <a href="scripts/build-cards.mjs">bu repodaki script'lerle</a>
+    üretiliyor — üçüncü parti kart servisi yok; istatistikler her gün
+    <a href="https://github.com/furkxndev/furkxndev/actions">GitHub Actions</a> ile yenileniyor.
+  </sub>
+</p>

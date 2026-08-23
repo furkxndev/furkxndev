@@ -2,13 +2,14 @@
  * README'deki statik animasyonlu kartları üretir:
  *   assets/tech.svg          — teknoloji rozetleri
  *   assets/experience.svg    — deneyim & eğitim zaman çizelgesi
+ *   assets/terminal.svg      — üstteki yazan terminal kartı
  *   assets/contact-*.svg     — iletişim kutucukları (her biri ayrı link)
  *   assets/project-*.svg     — öne çıkan proje kartları (her biri ayrı link)
  *
  * Kullanım: node scripts/build-cards.mjs
  *
- * İçeriği değiştirmek için aşağıdaki TECH / TIMELINE / CONTACT / PROJECTS
- * dizilerini düzenle.
+ * İçeriği değiştirmek için aşağıdaki TERMINAL / TECH / TIMELINE / CONTACT /
+ * PROJECTS dizilerini düzenle.
  * Rozet genişlikleri tek aralıklı yazı tipinin 0.6em karakter genişliğinden
  * hesaplanıyor; ölçüm için tarayıcıya gerek yok.
  */
@@ -222,6 +223,20 @@ const PROJECTS = [
     tech: ["Unity 2022.3", "C#", "URP 2D", "2D Physics"],
   },
 ];
+
+/**
+ * Üstteki terminal kartı. Her blok "$ komut" + çıktı satırından oluşur ve
+ * sırayla yazılıyormuş gibi belirir; zamanlama blok sayısına göre hesaplanır.
+ */
+const TERMINAL = {
+  titleBar: "furkan@github — zsh",
+  blocks: [
+    { cmd: "whoami", out: "Furkan Coşkun · Full-stack Geliştirici", fill: "#8b949e" },
+    { cmd: "cat odak.txt", out: "gerçek zamanlı sistemler · ödeme akışları · LLM destekli ürünler", fill: "#8b949e" },
+    { cmd: "ls -1 vitrin/", out: "kosfet  cutio  masapp  gezio  styla  paydas  patibak  aifiyet", fill: "#58a6ff" },
+    { cmd: "cat durum.txt", out: "Viofun'da stajyer · Cutio ve Koşfet üzerinde çalışıyorum", fill: "#8b949e" },
+  ],
+};
 
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -447,6 +462,96 @@ function contactCard(c) {
   return shell(W, H, `${c.label}: ${c.value}`, body, { radius: 10 });
 }
 
+// ------------------------------------------------------------------- terminal
+
+/**
+ * Yazılıyormuş etkisi, metnin üstündeki clipPath'in genişletilmesiyle veriliyor.
+ * keyTimes değerleri blok sayısına göre üretilir; döngü 0'da başlayıp 1'de biter.
+ */
+function terminalCard() {
+  const W = 900;
+  const FS = 15;
+  const CHAR = FS * 0.6;
+  const X = 30;
+  const TOP = 92; // ilk komut satırının taban çizgisi
+  const OUT_DY = 26;
+  const BLOCK_H = 60;
+  const DUR = "18s";
+
+  const blocks = TERMINAL.blocks;
+  const H = TOP + BLOCK_H * blocks.length + 20;
+  const SLOT = 0.9 / blocks.length;
+
+  let clips = "";
+  let lines = "";
+
+  blocks.forEach((b, i) => {
+    const cmdY = TOP + i * BLOCK_H;
+    const outY = cmdY + OUT_DY;
+    const cmdText = ` ${b.cmd}`;
+    // ölçüm yaklaşık olduğu için son karakter kırpılmasın diye birkaç piksel pay bırakılır
+    const cmdW = Math.round(monoWidth(`$${cmdText}`, FS)) + 6;
+    const outW = Math.round(monoWidth(b.out, FS)) + 6;
+
+    const t0 = +(0.02 + i * SLOT).toFixed(3);
+    const t1 = +(t0 + SLOT * 0.28).toFixed(3);
+    const t2 = +(t1 + SLOT * 0.12).toFixed(3);
+    const t3 = +(t2 + SLOT * 0.4).toFixed(3);
+
+    clips += `
+    <clipPath id="c${i}a"><rect x="${X}" y="${cmdY - 16}" height="22" width="0">
+      <animate attributeName="width" values="0;0;${cmdW};${cmdW}" keyTimes="0;${t0};${t1};1" dur="${DUR}" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c${i}b"><rect x="${X}" y="${outY - 16}" height="22" width="0">
+      <animate attributeName="width" values="0;0;${outW};${outW}" keyTimes="0;${t2};${t3};1" dur="${DUR}" repeatCount="indefinite"/>
+    </rect></clipPath>`;
+
+    lines += `
+      <g clip-path="url(#c${i}a)">
+        <text x="${X}" y="${cmdY}"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9">${esc(cmdText)}</tspan></text>
+      </g>
+      <g clip-path="url(#c${i}b)">
+        <text x="${X}" y="${outY}" fill="${b.fill}">${esc(b.out)}</text>
+      </g>`;
+  });
+
+  const lastY = TOP + BLOCK_H * blocks.length;
+  const promptOn = +(0.02 + blocks.length * SLOT).toFixed(3);
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="furkan@github terminal — whoami, odak alanları, vitrindeki projeler ve güncel durum">
+  <title>furkan@github — whoami</title>
+
+  <defs>
+    <clipPath id="win"><rect x="0" y="0" width="${W}" height="${H}" rx="12"/></clipPath>${clips}
+  </defs>
+
+  <g clip-path="url(#win)">
+    <rect width="${W}" height="${H}" fill="#0d1117"/>
+
+    <rect width="${W}" height="40" fill="#161b22"/>
+    <line x1="0" y1="40" x2="${W}" y2="40" stroke="#21262d"/>
+    <circle cx="26" cy="20" r="6" fill="#ff5f57"/>
+    <circle cx="48" cy="20" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="20" r="6" fill="#28c840"/>
+    <text x="${W / 2}" y="25" text-anchor="middle" font-family="${MONO}" font-size="12.5" fill="#6e7681">${esc(TERMINAL.titleBar)}</text>
+
+    <g font-family="${MONO}" font-size="${FS}">${lines}
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;${promptOn};${(promptOn + 0.02).toFixed(3)};1" dur="${DUR}" repeatCount="indefinite"/>
+        <text x="${X}" y="${lastY}" fill="#3fb950">$</text>
+        <rect x="${X + 14}" y="${lastY - 15}" width="9" height="18" fill="#58a6ff">
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>
+`;
+}
+
 // -------------------------------------------------------------------- projeler
 
 /** Orantılı yazı tipinde ortalama karakter genişliği ~0.53em. */
@@ -578,6 +683,7 @@ function projectCard(p, targetH) {
 }
 
 mkdirSync("assets", { recursive: true });
+writeFileSync("assets/terminal.svg", terminalCard());
 writeFileSync("assets/about.svg", aboutCard());
 writeFileSync("assets/tech.svg", techCard());
 writeFileSync("assets/experience.svg", experienceCard());
@@ -597,5 +703,5 @@ for (const p of PROJECTS) {
 }
 
 console.log(
-  `Kartlar güncellendi: tech, experience, about, ${CONTACT.length} iletişim, ${PROJECTS.length} proje.`
+  `Kartlar güncellendi: terminal, about, tech, experience, ${CONTACT.length} iletişim, ${PROJECTS.length} proje.`
 );
