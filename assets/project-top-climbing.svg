@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 257" width="440" height="257" role="img" aria-label="Top Climbing — Hill Climb tarzı, fizik tabanlı 2D mobil tırmanma oyunu: sonsuz arazi, yakıt yönetimi ve garaj ekonomisi.">
+  <title>Top Climbing — Hill Climb tarzı, fizik tabanlı 2D mobil tırmanma oyunu: sonsuz arazi, yakıt yönetimi ve garaj ekonomisi.</title>
+  <defs><clipPath id="c"><rect width="440" height="257" rx="10"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="440" height="257" fill="#0d1117"/>
+
+    <rect x="0" y="0" width="0" height="3" fill="#79c0ff">
+      <animate attributeName="width" values="0;0;440;440" keyTimes="0;0.08;0.5;1" dur="2.2s" fill="freeze"/>
+    </rect>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.120;0.220;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 7;0 7;0 0;0 0" keyTimes="0;0.120;0.220;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="42" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#e6edf3">Top Climbing</text>
+      <g>
+        <rect x="270" y="28" width="150" height="20" rx="6" fill="#161b22" stroke="#21262d"/>
+        <text x="345" y="42" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#6e7681">furkxndev/Top-Climbing</text>
+      </g>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.200;0.300;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.200;0.300;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="66" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Hill Climb tarzı, fizik tabanlı 2D mobil tırmanma oyunu:</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.240;0.340;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.240;0.340;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="83" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">sonsuz arazi, yakıt yönetimi ve garaj ekonomisi.</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.340;0.440;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.340;0.440;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="99" width="5" height="5" rx="1.2" fill="#79c0ff" opacity="0.9"/>
+      <text x="34" y="107" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">Gövde + iki tekerlek + WheelJoint2D süspansiyonuyla tam</text>
+      <text x="34" y="124" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">fizik sürüş</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.420;0.520;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.420;0.520;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="137" width="5" height="5" rx="1.2" fill="#79c0ff" opacity="0.9"/>
+      <text x="34" y="145" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">Chunk üretimi ve nesne havuzuyla sonsuz prosedürel arazi</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.500;0.600;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.500;0.600;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="158" width="5" height="5" rx="1.2" fill="#79c0ff" opacity="0.9"/>
+      <text x="34" y="166" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">Garaj, upgrade ve kalıcı kayıt dahil eksiksiz UI akışı</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.600;0.700;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.600;0.700;1" dur="2.2s" fill="freeze"/>
+      <rect x="20" y="218" width="92" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="28" y="232.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">Unity 2022.3</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.630;0.730;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.630;0.730;1" dur="2.2s" fill="freeze"/>
+      <rect x="118" y="218" width="29" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="126" y="232.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">C#</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.660;0.760;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.660;0.760;1" dur="2.2s" fill="freeze"/>
+      <rect x="153" y="218" width="54" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="161" y="232.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">URP 2D</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.690;0.790;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.690;0.790;1" dur="2.2s" fill="freeze"/>
+      <rect x="213" y="218" width="85" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="221" y="232.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">PlayerPrefs</text>
+    </g>
+    <rect x="0.5" y="0.5" width="439" height="256" rx="10" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

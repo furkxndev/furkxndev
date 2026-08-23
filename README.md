@@ -69,17 +69,15 @@
 <a href="https://github.com/furkxndev/foundry-local-rag"><img width="100%" alt="Local RAG — tümüyle yerelde çalışan RAG uygulaması" src="assets/project-local-rag.svg"></a>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/furkxndev/Karanlik-Tuzak"><img width="100%" alt="Karanlık Tuzak — Unity ile 2D troll platformer" src="assets/project-karanlik-tuzak.svg"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/furkxndev/Top-Climbing"><img width="100%" alt="Top Climbing — fizik tabanlı 2D tırmanma oyunu" src="assets/project-top-climbing.svg"></a>
+</td>
+</tr>
 </table>
-
-<div align="center">
-  <img width="100%" alt="Karanlık Tuzak ve Top Climbing — Unity ile iki mobil 2D oyun" src="assets/project-unity-oyunlari.svg">
-</div>
-
-<p align="center">
-  <a href="https://github.com/furkxndev/Karanlik-Tuzak">Karanlık Tuzak</a> &nbsp;·&nbsp;
-  <a href="https://github.com/furkxndev/Top-Climbing">Top Climbing</a> &nbsp;·&nbsp;
-  <a href="https://github.com/furkxndev?tab=repositories">tüm depolar</a>
-</p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="22"> &nbsp;Deneyim & Eğitim
 
@@ -117,15 +115,4 @@ Bir fikri konuşmak, birlikte bir şey kurmak ya da sadece merhaba demek için: 
   <a href="https://www.linkedin.com/in/furkxndev/"><img width="24%" alt="LinkedIn: furkxndev" src="assets/contact-linkedin.svg"></a>
   <a href="https://x.com/furkxndev"><img width="24%" alt="X: @furkxndev" src="assets/contact-x.svg"></a>
   <a href="https://furkxndev.com"><img width="24%" alt="Portfolyo: furkxndev.com" src="assets/contact-web.svg"></a>
-</p>
-
-<br>
-
-<p align="center">
-  <sub>
-    Bu sayfadaki kartların hepsi
-    <a href="scripts/build-cards.mjs">bu repodaki script'lerle</a>
-    üretiliyor — üçüncü parti kart servisi yok; istatistikler her gün
-    <a href="https://github.com/furkxndev/furkxndev/actions">GitHub Actions</a> ile yenileniyor.
-  </sub>
 </p>

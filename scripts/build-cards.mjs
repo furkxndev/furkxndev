@@ -209,18 +209,30 @@ const PROJECTS = [
     tech: ["Python", "Foundry Local", "Phi-4-mini", "SQLite"],
   },
   {
-    slug: "unity-oyunlari",
-    title: "Karanlık Tuzak · Top Climbing",
-    badge: "unity · 2 oyun",
+    slug: "karanlik-tuzak",
+    title: "Karanlık Tuzak",
+    badge: "furkxndev/Karanlik-Tuzak",
     accent: "#f0883e",
-    wide: true,
-    desc: "Unity ile geliştirilmiş iki mobil 2D oyun: tuzaklarla oynayan bir troll platformer ve fizik tabanlı sonsuz tırmanma.",
+    desc: "Level Devil tarzı, karanlık atmosferli 2D mobil troll platformer. Sahne kurulumu yok; dünya tümüyle kodla ayağa kalkıyor.",
     bullets: [
       "Sprite, ses ve geometri dahil her şey runtime'da üretiliyor",
+      "5 seviye: çöken zemin, sahte kapı, ters yerçekimi, ters kontroller",
       "Coyote-time + jump-buffer ile hassas zıplama hissi",
-      "Chunk üretimi ve nesne havuzuyla sonsuz arazi",
     ],
     tech: ["Unity 2022.3", "C#", "URP 2D", "2D Physics"],
+  },
+  {
+    slug: "top-climbing",
+    title: "Top Climbing",
+    badge: "furkxndev/Top-Climbing",
+    accent: "#79c0ff",
+    desc: "Hill Climb tarzı, fizik tabanlı 2D mobil tırmanma oyunu: sonsuz arazi, yakıt yönetimi ve garaj ekonomisi.",
+    bullets: [
+      "Gövde + iki tekerlek + WheelJoint2D süspansiyonuyla tam fizik sürüş",
+      "Chunk üretimi ve nesne havuzuyla sonsuz prosedürel arazi",
+      "Garaj, upgrade ve kalıcı kayıt dahil eksiksiz UI akışı",
+    ],
+    tech: ["Unity 2022.3", "C#", "URP 2D", "PlayerPrefs"],
   },
 ];
 
