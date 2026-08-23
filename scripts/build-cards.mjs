@@ -3,10 +3,12 @@
  *   assets/tech.svg          — teknoloji rozetleri
  *   assets/experience.svg    — deneyim & eğitim zaman çizelgesi
  *   assets/contact-*.svg     — iletişim kutucukları (her biri ayrı link)
+ *   assets/project-*.svg     — öne çıkan proje kartları (her biri ayrı link)
  *
  * Kullanım: node scripts/build-cards.mjs
  *
- * İçeriği değiştirmek için aşağıdaki TECH / TIMELINE / CONTACT dizilerini düzenle.
+ * İçeriği değiştirmek için aşağıdaki TECH / TIMELINE / CONTACT / PROJECTS
+ * dizilerini düzenle.
  * Rozet genişlikleri tek aralıklı yazı tipinin 0.6em karakter genişliğinden
  * hesaplanıyor; ölçüm için tarayıcıya gerek yok.
  */
@@ -65,6 +67,160 @@ const CONTACT = [
   { file: "contact-linkedin", icon: "linkedin", accent: "#0a66c2", label: "LinkedIn", value: "furkxndev" },
   { file: "contact-x", icon: "x", accent: "#c9d1d9", label: "X", value: "@furkxndev" },
   { file: "contact-web", icon: "web", accent: "#58a6ff", label: "Portfolyo", value: "furkxndev.com" },
+];
+
+/**
+ * Öne çıkan projeler. Her biri assets/project-<slug>.svg olarak üretilir ve
+ * README'de kendi bağlantısıyla birlikte gösterilir.
+ *
+ * desc ve bullets satırları kendiliğinden sarılır (sansWidth ölçümü), elle
+ * bölmeye gerek yok. wide: true olan kart 900px genişliğinde tek başına durur.
+ */
+const PROJECTS = [
+  {
+    slug: "kosfet",
+    title: "Koşfet",
+    badge: "furkxndev/kosfet",
+    accent: "#3fb950",
+    desc: "GPS ile koştuğun her metre haritadaki H3 altıgenlerini senin rengine boyar; rakibin bölgesinden geçtiğinde alanı ondan çalarsın.",
+    bullets: [
+      "H3 çözünürlük 11 + gridPathCells ile kesintisiz fetih koridoru",
+      "Mülkiyet devri tek transaction'da, denetim kaydıyla birlikte",
+      "Anti-cheat: doğruluk, hız ve ışınlanma kontrolü → güven puanı",
+    ],
+    tech: ["NestJS 11", "TypeORM", "PostgreSQL 16", "Expo SDK 54", "h3-js"],
+  },
+  {
+    slug: "cutio",
+    title: "Cutio",
+    badge: "özel",
+    accent: "#56d4dd",
+    desc: "Randevu tabanlı işletmeler için çok kiracılı platform. İşletme kendi randevu linkini paylaşır, müşteri hizmet ve saat seçer.",
+    bullets: [
+      "tenantId ile veri izolasyonu — her sorgu aktif kiracıyla sınırlı",
+      "Müsaitlik motoru çalışma saati, mola, izin ve dolu slotları harmanlar",
+      "Sektöre göre uyarlanan terminoloji, mobile-first PWA panel",
+    ],
+    tech: ["NestJS 11", "TypeORM", "PostgreSQL", "React 19", "Tailwind v4", "Bun"],
+  },
+  {
+    slug: "masapp",
+    title: "Masapp",
+    badge: "özel",
+    accent: "#f78166",
+    desc: "QR ile masadan sipariş, hesap bölüşme ve kartla ödeme. İşletme tarafında canlı sipariş ve masa yönetimi.",
+    bullets: [
+      "Socket.IO ile müşteri ekranı ↔ panel anlık senkron",
+      "Hesap bölüşme: tüm hesap, kişi başı veya seçili ürün",
+      "Paylaşılan sözleşme paketi — frontend ham fetch çağırmaz",
+    ],
+    tech: ["NestJS", "Prisma", "PostgreSQL", "Socket.IO", "React 19", "İyzico"],
+  },
+  {
+    slug: "gezio",
+    title: "Gezio",
+    badge: "gezio.furkxndev.com",
+    accent: "#d29922",
+    desc: "Bütçe, süre ve ilgi alanına göre gün gün seyahat programı üreten AI destekli seyahat planlama platformu.",
+    bullets: [
+      "Başkasının rotasını kendi bütçene göre yeniden kurgulama",
+      "OpenAPI 3 ile belgelenmiş, üçüncü partilere açık REST API",
+      "Tek origin mimarisi — nginx /api proxy'si, CORS yok",
+    ],
+    tech: ["NestJS", "TypeORM", "PostgreSQL 17", "React 19", "Docker", "nginx"],
+  },
+  {
+    slug: "styla",
+    title: "Styla",
+    badge: "furkxndev/styla",
+    accent: "#a371f7",
+    desc: "Gardırobu dijitalleştirip hava durumu ve kişisel tercihlere göre her sabah kombin öneren AI stil asistanı.",
+    bullets: [
+      "Kural tabanlı öneri yok; kombini LLM üretir, backend doğrulayıp saklar",
+      "Kıyafet görsel analizi ve stil sohbeti aynı AI katmanında",
+      "Admin paneli: model/parametre ayarı ve maliyet takibi",
+    ],
+    tech: ["React Native", "Expo SDK 54", "NestJS 11", "TypeORM", "OpenRouter"],
+  },
+  {
+    slug: "paydas",
+    title: "Paydaş",
+    badge: "furkxndev/paydas",
+    accent: "#58a6ff",
+    desc: "Ev arkadaşlarının ortak giderlerini, faturalarını ve ev işlerini birlikte yönettiği dijital ev asistanı.",
+    bullets: [
+      "Eşit, elle veya yüzdeli bölüşüm — kuruş güvenli dağıtım",
+      "Borçları en az sayıda transfere indirgeyen hesap kapatma",
+      "Tekrarlayan faturalar, görev atama ve yerel hatırlatmalar",
+    ],
+    tech: ["React Native", "Expo", "NestJS", "PostgreSQL", "Docker"],
+  },
+  {
+    slug: "patibak",
+    title: "PatiBak",
+    badge: "furkxndev/patibak",
+    accent: "#db61a2",
+    desc: "Sahiplendirme ve geçici bakıcı eşleştiren uçtan uca mobil platform.",
+    bullets: [
+      "Okundu bilgili gerçek zamanlı mesajlaşma",
+      "JWT + BCrypt oturum, doğrulanmış hesap sistemi",
+      "Güven puanı ve yorum tabanlı profil analizi",
+    ],
+    tech: ["React Native", "Expo Router", "Node.js", "MySQL", "Sequelize"],
+  },
+  {
+    slug: "aifiyet",
+    title: "AIfiyet",
+    badge: "aifiyet.site",
+    accent: "#7ee787",
+    desc: "Eldeki malzemeye göre AI ile tarif ve besin değeri üreten beslenme platformu.",
+    bullets: [
+      "Gemini 2.5 Flash; tehlikeli girdileri reddeden güvenlik katmanı",
+      "Controller → Service → Repository katmanlı mimari",
+      "Docker Compose ile tek komutta ayağa kalkar",
+    ],
+    tech: ["Java 17", "Spring Boot", "JPA", "PostgreSQL", "Gemini API", "Docker"],
+  },
+  {
+    slug: "sinav-bildirim",
+    title: "OBS Not Bildirici",
+    badge: "furkxndev/sinav-bildirim",
+    accent: "#e3b341",
+    desc: "Yeni açıklanan sınav sonuçlarını Telegram'dan bildiren, GitHub Actions üzerinde 7/24 ücretsiz çalışan bot.",
+    bullets: [
+      "Playwright ile oturum açma ve sayfa karşılaştırması",
+      "Gizlilik önceliği: puan değil yalnızca “açıklandı mı” saklanır",
+      "Rastgele gecikme ve saat kısıtıyla engellenmeye karşı korumalı",
+    ],
+    tech: ["Python", "Playwright", "Telegram Bot API", "GitHub Actions"],
+  },
+  {
+    slug: "local-rag",
+    title: "Local RAG",
+    badge: "furkxndev/foundry-local-rag",
+    accent: "#a5d6ff",
+    desc: "Kendi metin dosyaları hakkındaki soruları buluta çıkmadan, tümüyle yerelde çalışan modelle cevaplayan RAG uygulaması.",
+    bullets: [
+      "Bağımlılık yok: parçalama, TF-IDF vektörler ve arama saf Python",
+      "SQLite vektör deposu; benzerlik düşükse model hiç çağrılmaz",
+      "Kaynaklar modelden değil arama adımından yazılır — uydurma yok",
+    ],
+    tech: ["Python", "Foundry Local", "Phi-4-mini", "SQLite"],
+  },
+  {
+    slug: "unity-oyunlari",
+    title: "Karanlık Tuzak · Top Climbing",
+    badge: "unity · 2 oyun",
+    accent: "#f0883e",
+    wide: true,
+    desc: "Unity ile geliştirilmiş iki mobil 2D oyun: tuzaklarla oynayan bir troll platformer ve fizik tabanlı sonsuz tırmanma.",
+    bullets: [
+      "Sprite, ses ve geometri dahil her şey runtime'da üretiliyor",
+      "Coyote-time + jump-buffer ile hassas zıplama hissi",
+      "Chunk üretimi ve nesne havuzuyla sonsuz arazi",
+    ],
+    tech: ["Unity 2022.3", "C#", "URP 2D", "2D Physics"],
+  },
 ];
 
 const esc = (s) =>
@@ -291,9 +447,155 @@ function contactCard(c) {
   return shell(W, H, `${c.label}: ${c.value}`, body, { radius: 10 });
 }
 
+// -------------------------------------------------------------------- projeler
+
+/** Orantılı yazı tipinde ortalama karakter genişliği ~0.53em. */
+const sansWidth = (text, size) => text.length * size * 0.53;
+
+/** Metni verilen piksel genişliğine göre kelime kelime sarar. */
+function wrap(text, size, maxW) {
+  const lines = [];
+  let cur = "";
+  for (const word of String(text).split(/\s+/)) {
+    const next = cur ? `${cur} ${word}` : word;
+    if (cur && sansWidth(next, size) > maxW) {
+      lines.push(cur);
+      cur = word;
+    } else {
+      cur = next;
+    }
+  }
+  if (cur) lines.push(cur);
+  return lines;
+}
+
+const P_PAD = 20;
+const P_DESC_FS = 12.5;
+const P_DESC_LH = 17;
+const P_BULLET_FS = 12;
+const P_BULLET_LH = 17;
+const P_BULLET_GAP = 4;
+const P_BULLET_X = 14; // madde işaretiyle metin arası
+const P_CHIP_H = 21;
+const P_CHIP_FS = 10.5;
+const P_CHIP_PAD = 8;
+const P_CHIP_GAP = 6;
+const P_TITLE_Y = 42;
+const P_DESC_Y = 66;
+
+/** Kartın içeriğini ölçer; yükseklik hesabı ve çizim aynı yerleşimi kullanır. */
+function projectLayout(p) {
+  const W = p.wide ? 900 : 440;
+  const inner = W - P_PAD * 2;
+  const descLines = wrap(p.desc, P_DESC_FS, inner);
+  const bullets = p.bullets.map((b) => wrap(b, P_BULLET_FS, inner - P_BULLET_X));
+
+  const descEnd = P_DESC_Y + (descLines.length - 1) * P_DESC_LH;
+  let y = descEnd + 24;
+  const bulletRows = [];
+  for (const lines of bullets) {
+    bulletRows.push({ y, lines });
+    y += lines.length * P_BULLET_LH + P_BULLET_GAP;
+  }
+  const bulletsEnd = y - P_BULLET_GAP;
+
+  // rozetler satır satır yerleşir
+  const chipRows = [[]];
+  let x = P_PAD;
+  for (const t of p.tech) {
+    const w = Math.round(monoWidth(t, P_CHIP_FS) + P_CHIP_PAD * 2);
+    if (x > P_PAD && x + w > W - P_PAD) {
+      chipRows.push([]);
+      x = P_PAD;
+    }
+    chipRows[chipRows.length - 1].push({ x, w, label: t });
+    x += w + P_CHIP_GAP;
+  }
+
+  const chipBlock = chipRows.length * P_CHIP_H + (chipRows.length - 1) * P_CHIP_GAP;
+  const H = bulletsEnd + 18 + chipBlock + 18;
+  return { W, H, descLines, bulletRows, chipRows, chipBlock };
+}
+
+/**
+ * Tek proje kartı. targetH verilirse kart o yüksekliğe uzatılır ve rozetler
+ * alta yaslanır — böylece yan yana duran kartlar aynı hizada biter.
+ */
+function projectCard(p, targetH) {
+  const L = projectLayout(p);
+  const W = L.W;
+  const H = Math.max(targetH || 0, L.H);
+  const chipY = H - 18 - L.chipBlock;
+
+  const badgeW = Math.round(monoWidth(p.badge, 10) + 18);
+  const locked = p.badge === "özel";
+
+  let body = `
+    <rect x="0" y="0" width="0" height="3" fill="${p.accent}">
+      <animate attributeName="width" values="0;0;${W};${W}" keyTimes="0;0.08;0.5;1" dur="2.2s" fill="freeze"/>
+    </rect>
+    <g opacity="0">${enter(0.12, 7)}
+      <text x="${P_PAD}" y="${P_TITLE_Y}" font-family="${SANS}" font-size="15.5" font-weight="700" fill="#e6edf3">${esc(p.title)}</text>
+      <g>
+        <rect x="${W - P_PAD - badgeW}" y="${P_TITLE_Y - 14}" width="${badgeW}" height="20" rx="6" fill="#161b22" stroke="#21262d"/>
+        <text x="${W - P_PAD - badgeW / 2}" y="${P_TITLE_Y}" text-anchor="middle" font-family="${MONO}" font-size="10" fill="${locked ? "#8b949e" : "#6e7681"}">${esc(p.badge)}</text>
+      </g>
+    </g>`;
+
+  L.descLines.forEach((line, i) => {
+    body += `
+    <g opacity="0">${enter(0.2 + i * 0.04, 6)}
+      <text x="${P_PAD}" y="${P_DESC_Y + i * P_DESC_LH}" font-family="${SANS}" font-size="${P_DESC_FS}" fill="#8b949e">${esc(line)}</text>
+    </g>`;
+  });
+
+  L.bulletRows.forEach((row, i) => {
+    const delay = 0.34 + i * 0.08;
+    let lines = "";
+    row.lines.forEach((line, li) => {
+      lines += `
+      <text x="${P_PAD + P_BULLET_X}" y="${row.y + li * P_BULLET_LH}" font-family="${SANS}" font-size="${P_BULLET_FS}" fill="#c9d1d9">${esc(line)}</text>`;
+    });
+    body += `
+    <g opacity="0">${enter(delay, 6)}
+      <rect x="${P_PAD + 1}" y="${row.y - 8}" width="5" height="5" rx="1.2" fill="${p.accent}" opacity="0.9"/>${lines}
+    </g>`;
+  });
+
+  L.chipRows.forEach((row, ri) => {
+    const y = chipY + ri * (P_CHIP_H + P_CHIP_GAP);
+    row.forEach((chip, ci) => {
+      const delay = 0.6 + (ri * 4 + ci) * 0.03;
+      body += `
+    <g opacity="0">${enter(delay, 5)}
+      <rect x="${chip.x}" y="${y}" width="${chip.w}" height="${P_CHIP_H}" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="${chip.x + P_CHIP_PAD}" y="${y + 14.5}" font-family="${MONO}" font-size="${P_CHIP_FS}" fill="#8b949e">${esc(chip.label)}</text>
+    </g>`;
+    });
+  });
+
+  return shell(W, H, `${p.title} — ${p.desc}`, body, { radius: 10 });
+}
+
 mkdirSync("assets", { recursive: true });
 writeFileSync("assets/about.svg", aboutCard());
 writeFileSync("assets/tech.svg", techCard());
 writeFileSync("assets/experience.svg", experienceCard());
 for (const c of CONTACT) writeFileSync(`assets/${c.file}.svg`, contactCard(c));
-console.log("assets/tech.svg, assets/experience.svg ve iletişim kartları güncellendi.");
+
+// README'de yan yana duran iki kart aynı yükseklikte bitsin diye satırdaki
+// uzun kart ölçü alınır; wide kartlar kendi doğal yüksekliğinde kalır.
+const grid = PROJECTS.filter((p) => !p.wide);
+const rowH = new Map();
+for (let i = 0; i < grid.length; i += 2) {
+  const pair = grid.slice(i, i + 2);
+  const h = Math.max(...pair.map((p) => projectLayout(p).H));
+  for (const p of pair) rowH.set(p.slug, h);
+}
+for (const p of PROJECTS) {
+  writeFileSync(`assets/project-${p.slug}.svg`, projectCard(p, rowH.get(p.slug) || 0));
+}
+
+console.log(
+  `Kartlar güncellendi: tech, experience, about, ${CONTACT.length} iletişim, ${PROJECTS.length} proje.`
+);

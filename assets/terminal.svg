@@ -20,7 +20,7 @@
       <animate attributeName="width" values="0;0;160;160" keyTimes="0;0.50;0.54;1" dur="15s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="L5"><rect x="30" y="222" height="22" width="0">
-      <animate attributeName="width" values="0;0;530;530" keyTimes="0;0.59;0.67;1" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;549;549" keyTimes="0;0.59;0.67;1" dur="15s" repeatCount="indefinite"/>
     </rect></clipPath>
   </defs>
 
@@ -58,7 +58,7 @@
         <text x="30" y="212"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> ls -1 vitrin/</tspan></text>
       </g>
       <g clip-path="url(#L5)">
-        <text x="30" y="238" fill="#58a6ff">masapp  gezio  patibak  aifiyet  karanlik-tuzak  top-climbing</text>
+        <text x="30" y="238" fill="#58a6ff">kosfet  cutio  masapp  gezio  styla  paydas  patibak  aifiyet</text>
       </g>
 
       <!-- son prompt + yanıp sönen imleç -->

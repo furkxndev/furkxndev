@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 250" width="440" height="250" role="img" aria-label="Masapp — QR ile masadan sipariş, hesap bölüşme ve kartla ödeme. İşletme tarafında canlı sipariş ve masa yönetimi.">
+  <title>Masapp — QR ile masadan sipariş, hesap bölüşme ve kartla ödeme. İşletme tarafında canlı sipariş ve masa yönetimi.</title>
+  <defs><clipPath id="c"><rect width="440" height="250" rx="10"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="440" height="250" fill="#0d1117"/>
+
+    <rect x="0" y="0" width="0" height="3" fill="#f78166">
+      <animate attributeName="width" values="0;0;440;440" keyTimes="0;0.08;0.5;1" dur="2.2s" fill="freeze"/>
+    </rect>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.120;0.220;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 7;0 7;0 0;0 0" keyTimes="0;0.120;0.220;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="42" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#e6edf3">Masapp</text>
+      <g>
+        <rect x="378" y="28" width="42" height="20" rx="6" fill="#161b22" stroke="#21262d"/>
+        <text x="399" y="42" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#8b949e">özel</text>
+      </g>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.200;0.300;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.200;0.300;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="66" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">QR ile masadan sipariş, hesap bölüşme ve kartla ödeme.</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.240;0.340;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.240;0.340;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="83" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">İşletme tarafında canlı sipariş ve masa yönetimi.</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.340;0.440;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.340;0.440;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="99" width="5" height="5" rx="1.2" fill="#f78166" opacity="0.9"/>
+      <text x="34" y="107" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">Socket.IO ile müşteri ekranı ↔ panel anlık senkron</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.420;0.520;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.420;0.520;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="120" width="5" height="5" rx="1.2" fill="#f78166" opacity="0.9"/>
+      <text x="34" y="128" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">Hesap bölüşme: tüm hesap, kişi başı veya seçili ürün</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.500;0.600;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.500;0.600;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="141" width="5" height="5" rx="1.2" fill="#f78166" opacity="0.9"/>
+      <text x="34" y="149" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">Paylaşılan sözleşme paketi — frontend ham fetch çağırmaz</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.600;0.700;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.600;0.700;1" dur="2.2s" fill="freeze"/>
+      <rect x="20" y="184" width="54" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="28" y="198.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">NestJS</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.630;0.730;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.630;0.730;1" dur="2.2s" fill="freeze"/>
+      <rect x="80" y="184" width="54" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="88" y="198.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">Prisma</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.660;0.760;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.660;0.760;1" dur="2.2s" fill="freeze"/>
+      <rect x="140" y="184" width="79" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="148" y="198.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">PostgreSQL</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.690;0.790;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.690;0.790;1" dur="2.2s" fill="freeze"/>
+      <rect x="225" y="184" width="73" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="233" y="198.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">Socket.IO</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.720;0.820;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.720;0.820;1" dur="2.2s" fill="freeze"/>
+      <rect x="304" y="184" width="66" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="312" y="198.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">React 19</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.720;0.820;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.720;0.820;1" dur="2.2s" fill="freeze"/>
+      <rect x="20" y="211" width="54" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="28" y="225.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">İyzico</text>
+    </g>
+    <rect x="0.5" y="0.5" width="439" height="249" rx="10" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 301" width="440" height="301" role="img" aria-label="Cutio — Randevu tabanlı işletmeler için çok kiracılı platform. İşletme kendi randevu linkini paylaşır, müşteri hizmet ve saat seçer.">
+  <title>Cutio — Randevu tabanlı işletmeler için çok kiracılı platform. İşletme kendi randevu linkini paylaşır, müşteri hizmet ve saat seçer.</title>
+  <defs><clipPath id="c"><rect width="440" height="301" rx="10"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="440" height="301" fill="#0d1117"/>
+
+    <rect x="0" y="0" width="0" height="3" fill="#56d4dd">
+      <animate attributeName="width" values="0;0;440;440" keyTimes="0;0.08;0.5;1" dur="2.2s" fill="freeze"/>
+    </rect>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.120;0.220;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 7;0 7;0 0;0 0" keyTimes="0;0.120;0.220;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="42" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#e6edf3">Cutio</text>
+      <g>
+        <rect x="378" y="28" width="42" height="20" rx="6" fill="#161b22" stroke="#21262d"/>
+        <text x="399" y="42" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#8b949e">özel</text>
+      </g>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.200;0.300;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.200;0.300;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="66" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Randevu tabanlı işletmeler için çok kiracılı platform.</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.240;0.340;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.240;0.340;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="83" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">İşletme kendi randevu linkini paylaşır, müşteri hizmet ve</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.280;0.380;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.280;0.380;1" dur="2.2s" fill="freeze"/>
+      <text x="20" y="100" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">saat seçer.</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.340;0.440;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.340;0.440;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="116" width="5" height="5" rx="1.2" fill="#56d4dd" opacity="0.9"/>
+      <text x="34" y="124" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">tenantId ile veri izolasyonu — her sorgu aktif kiracıyla</text>
+      <text x="34" y="141" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">sınırlı</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.420;0.520;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.420;0.520;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="154" width="5" height="5" rx="1.2" fill="#56d4dd" opacity="0.9"/>
+      <text x="34" y="162" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">Müsaitlik motoru çalışma saati, mola, izin ve dolu slotları</text>
+      <text x="34" y="179" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">harmanlar</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.500;0.600;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.500;0.600;1" dur="2.2s" fill="freeze"/>
+      <rect x="21" y="192" width="5" height="5" rx="1.2" fill="#56d4dd" opacity="0.9"/>
+      <text x="34" y="200" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9">Sektöre göre uyarlanan terminoloji, mobile-first PWA panel</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.600;0.700;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.600;0.700;1" dur="2.2s" fill="freeze"/>
+      <rect x="20" y="235" width="73" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="28" y="249.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">NestJS 11</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.630;0.730;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.630;0.730;1" dur="2.2s" fill="freeze"/>
+      <rect x="99" y="235" width="60" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="107" y="249.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">TypeORM</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.660;0.760;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.660;0.760;1" dur="2.2s" fill="freeze"/>
+      <rect x="165" y="235" width="79" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="173" y="249.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">PostgreSQL</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.690;0.790;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.690;0.790;1" dur="2.2s" fill="freeze"/>
+      <rect x="250" y="235" width="66" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="258" y="249.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">React 19</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.720;0.820;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.720;0.820;1" dur="2.2s" fill="freeze"/>
+      <rect x="322" y="235" width="85" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="330" y="249.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">Tailwind v4</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.720;0.820;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 5;0 5;0 0;0 0" keyTimes="0;0.720;0.820;1" dur="2.2s" fill="freeze"/>
+      <rect x="20" y="262" width="35" height="21" rx="6" fill="#161b22" stroke="#21262d"/>
+      <text x="28" y="276.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#8b949e">Bun</text>
+    </g>
+    <rect x="0.5" y="0.5" width="439" height="300" rx="10" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

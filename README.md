@@ -29,89 +29,54 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### 🍽️ Masapp &nbsp;<sub>🔒 özel</sub>
-
-QR ile masadan sipariş, hesap bölüşme ve kartla ödeme. İşletme tarafında canlı sipariş ve masa yönetimi.
-
-- Socket.IO ile müşteri ekranı ↔ panel anlık senkron
-- Hesap bölüşme: tüm hesap, kişi başı veya seçili ürün
-- Paylaşılan sözleşme paketi — frontend ham `fetch` çağırmaz
-
-`NestJS` `Prisma` `PostgreSQL` `Socket.IO` `React 19` `İyzico`
-
+<a href="https://github.com/furkxndev/kosfet"><img width="100%" alt="Koşfet — GPS tabanlı bölge fethi oyunu" src="assets/project-kosfet.svg"></a>
 </td>
 <td width="50%" valign="top">
-
-### 🗺️ [Gezio](https://gezio.furkxndev.com) &nbsp;<sub>🔒 özel</sub>
-
-Bütçe, süre ve ilgi alanına göre gün gün seyahat programı üreten AI destekli platform.
-
-- Başkasının rotasını kendi bütçene göre yeniden kurgulama
-- OpenAPI 3 ile belgelenmiş, üçüncü partilere açık REST API
-- Tek origin mimarisi — nginx `/api` proxy'si, CORS yok
-
-`NestJS` `TypeORM` `PostgreSQL 17` `React 19` `Docker` `nginx`
-
+<img width="100%" alt="Cutio — çok kiracılı randevu platformu" src="assets/project-cutio.svg">
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### 🐾 [PatiBak](https://github.com/furkxndev/patibak)
-
-Sahiplendirme ve geçici bakıcı eşleştiren uçtan uca mobil platform.
-
-- Okundu bilgili gerçek zamanlı mesajlaşma
-- JWT + BCrypt oturum, doğrulanmış hesap sistemi
-- Güven puanı ve yorum tabanlı profil analizi
-
-`React Native` `Expo Router` `Node.js` `MySQL` `Sequelize`
-
+<img width="100%" alt="Masapp — QR ile masadan sipariş ve ödeme" src="assets/project-masapp.svg">
 </td>
 <td width="50%" valign="top">
-
-### 🥗 [AIfiyet](https://aifiyet.site)
-
-Eldeki malzemeye göre AI ile tarif ve besin değeri üreten beslenme platformu.
-
-- Gemini 2.5 Flash; tehlikeli girdileri reddeden güvenlik katmanı
-- Controller → Service → Repository katmanlı mimari
-- Docker Compose ile tek komutta ayağa kalkar
-
-`Java 17` `Spring Boot` `JPA` `PostgreSQL` `Gemini API` `Docker`
-
+<a href="https://gezio.furkxndev.com"><img width="100%" alt="Gezio — AI destekli seyahat planlama" src="assets/project-gezio.svg"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### 🔔 [OBS Not Bildirici](https://github.com/furkxndev/sinav-bildirim)
-
-Yeni açıklanan sınav sonuçlarını Telegram'dan bildiren, GitHub Actions üzerinde 7/24 ücretsiz çalışan bot.
-
-- Playwright ile oturum açma ve sayfa karşılaştırması
-- Gizlilik önceliği: puan değil yalnızca "açıklandı mı" saklanır
-- Rastgele gecikme ve saat kısıtıyla engellenmeye karşı korumalı
-
-`Python` `Playwright` `Telegram Bot API` `GitHub Actions`
-
+<a href="https://github.com/furkxndev/styla"><img width="100%" alt="Styla — AI kişisel stil asistanı" src="assets/project-styla.svg"></a>
 </td>
 <td width="50%" valign="top">
-
-### 🎮 [Karanlık Tuzak](https://github.com/furkxndev/Karanlik-Tuzak) · [Top Climbing](https://github.com/furkxndev/Top-Climbing)
-
-Unity ile iki mobil 2D oyun: troll platformer ve fizik tabanlı tırmanma.
-
-- Sprite, ses ve geometri dahil her şey runtime'da üretiliyor
-- Coyote-time + jump-buffer ile hassas zıplama hissi
-- Chunk üretimi ve nesne havuzuyla sonsuz arazi
-
-`Unity 2022.3` `C#` `URP 2D` `2D Physics`
-
+<a href="https://github.com/furkxndev/paydas"><img width="100%" alt="Paydaş — ortak gider ve ev yönetimi" src="assets/project-paydas.svg"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/furkxndev/patibak"><img width="100%" alt="PatiBak — sahiplendirme ve geçici bakım platformu" src="assets/project-patibak.svg"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://aifiyet.site"><img width="100%" alt="AIfiyet — AI destekli beslenme platformu" src="assets/project-aifiyet.svg"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/furkxndev/sinav-bildirim"><img width="100%" alt="OBS Not Bildirici — Telegram bildirim botu" src="assets/project-sinav-bildirim.svg"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/furkxndev/foundry-local-rag"><img width="100%" alt="Local RAG — tümüyle yerelde çalışan RAG uygulaması" src="assets/project-local-rag.svg"></a>
 </td>
 </tr>
 </table>
+
+<div align="center">
+  <img width="100%" alt="Karanlık Tuzak ve Top Climbing — Unity ile iki mobil 2D oyun" src="assets/project-unity-oyunlari.svg">
+</div>
+
+<p align="center">
+  <a href="https://github.com/furkxndev/Karanlik-Tuzak">Karanlık Tuzak</a> &nbsp;·&nbsp;
+  <a href="https://github.com/furkxndev/Top-Climbing">Top Climbing</a>
+</p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="22"> &nbsp;Deneyim & Eğitim
 
