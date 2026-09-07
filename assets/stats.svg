@@ -1151,6 +1151,9 @@
       <rect x="408.8" y="226.0" width="6" height="6" rx="1.6" fill="#161b22" opacity="0">
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.752;0.852;1" dur="2.4s" fill="freeze"/>
       </rect>
+      <rect x="408.8" y="233.4" width="6" height="6" rx="1.6" fill="#161b22" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.752;0.852;1" dur="2.4s" fill="freeze"/>
+      </rect>
     </g>
     <rect x="0.5" y="0.5" width="443" height="291" rx="12" fill="none" stroke="#21262d"/>
   </g>
