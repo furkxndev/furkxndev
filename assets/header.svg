@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 176" width="900" height="176" role="img" aria-label="Furkan Coşkun — Bilgisayar Mühendisi. Geleceği tahmin etmenin en iyi yolu onu icat etmektir. — Alan Kay">
+  <title>Furkan Coşkun — Bilgisayar Mühendisi</title>
+
+  <defs>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="900" height="176" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="176" fill="#0d1117"/>
+
+    <text x="56" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="12" fill="#58a6ff" letter-spacing="3.4">BİLGİSAYAR MÜHENDİSİ</text>
+
+    <text x="844" y="54" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="12" fill="#6e7681" letter-spacing="0.6">Antalya, Türkiye</text>
+
+    <text x="56" y="104" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="40" font-weight="650" fill="#e6edf3" letter-spacing="-0.8">Furkan Coşkun</text>
+
+    <rect x="56" y="124" width="88" height="2" rx="1" fill="url(#rule)"/>
+
+    <text x="56" y="152" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="14.5" fill="#8b949e" font-style="italic">“Geleceği tahmin etmenin en iyi yolu onu icat etmektir.”<tspan
+          font-style="normal" fill="#6e7681" font-size="13"> — Alan Kay</tspan></text>
+
+    <rect x="0.5" y="0.5" width="899" height="175" rx="14" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

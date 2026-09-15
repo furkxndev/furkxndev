@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 188" width="900" height="188" role="img" aria-label="Bir ürünün tamamını tek başıma kuruyorum: veri modelinden API sözleşmesine, mobil arayüzden sunucu dağıtımına kadar. Böyle çalışınca problem tek bir katmanda kalmıyor — çok kiracılı bir sistemde verinin sızmaması, iki cihaz aynı anda yazdığında doğru işlemin kazanması ve dil modeli yanlış cevap verdiğinde bunun fark edilmesi aynı tasarımın parçaları. Aşağıdaki projeler prototip değil; kimlik doğrulama, ödeme, gerçek zamanlı senkron ve Docker ile dağıtım dahil çalışır halde.">
+  <title>Bir ürünün tamamını tek başıma kuruyorum: veri modelinden API sözleşmesine, mobil arayüzden sunucu dağıtımına kadar. Böyle çalışınca problem tek bir katmanda kalmıyor — çok kiracılı bir sistemde verinin sızmaması, iki cihaz aynı anda yazdığında doğru işlemin kazanması ve dil modeli yanlış cevap verdiğinde bunun fark edilmesi aynı tasarımın parçaları. Aşağıdaki projeler prototip değil; kimlik doğrulama, ödeme, gerçek zamanlı senkron ve Docker ile dağıtım dahil çalışır halde.</title>
+  <defs><clipPath id="c"><rect width="900" height="188" rx="12"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="188" fill="#0d1117"/>
+    <rect x="28" y="30" width="26" height="2" rx="1" fill="#58a6ff"/>
+    <text x="28" y="64" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#c9d1d9">Bir ürünün tamamını tek başıma kuruyorum: veri modelinden API sözleşmesine, mobil arayüzden sunucu</text>
+    <text x="28" y="88" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#c9d1d9">dağıtımına kadar. Böyle çalışınca problem tek bir katmanda kalmıyor — çok kiracılı bir sistemde verinin</text>
+    <text x="28" y="112" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#c9d1d9">sızmaması, iki cihaz aynı anda yazdığında doğru işlemin kazanması ve dil modeli yanlış cevap verdiğinde</text>
+    <text x="28" y="136" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#c9d1d9">bunun fark edilmesi aynı tasarımın parçaları. Aşağıdaki projeler prototip değil; kimlik doğrulama, ödeme,</text>
+    <text x="28" y="160" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#c9d1d9">gerçek zamanlı senkron ve Docker ile dağıtım dahil çalışır halde.</text>
+    <rect x="0.5" y="0.5" width="899" height="187" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

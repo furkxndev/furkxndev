@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436 282" width="436" height="282" role="img" aria-label="Styla — Gardırobu dijitalleştirip hava durumu ve kişisel tercihlere göre kombin öneren AI stil asistanı.">
+  <title>Styla — Gardırobu dijitalleştirip hava durumu ve kişisel tercihlere göre kombin öneren AI stil asistanı.</title>
+  <defs><clipPath id="c"><rect width="436" height="282" rx="12"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="436" height="282" fill="#0d1117"/>
+    <text x="22" y="38" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="650" fill="#e6edf3" letter-spacing="-0.2">Styla</text>
+    <text x="414" y="37" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6e7681">furkxndev/styla</text>
+    <rect x="22" y="48" width="26" height="2" rx="1" fill="#58a6ff"/>
+    <text x="22" y="74" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">Gardırobu dijitalleştirip hava durumu ve kişisel</text>
+    <text x="22" y="92" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">tercihlere göre kombin öneren AI stil asistanı.</text>
+    <rect x="22" y="111" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="118" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Öneri kural tablosundan değil dil modelinden gelir;</text>
+    <text x="34" y="135" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">backend doğrular ve saklar</text>
+    <rect x="22" y="149" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="156" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Kıyafet görsel analizi ile stil sohbeti aynı AI</text>
+    <text x="34" y="173" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">katmanında toplanır</text>
+    <rect x="22" y="187" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="194" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Admin paneli model, parametre ve token maliyetini izler</text>
+    <text x="22" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6e7681">React Native · Expo SDK 54 · NestJS 11 · TypeORM ·</text>
+    <text x="22" y="262" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6e7681">OpenRouter</text>
+    <rect x="0.5" y="0.5" width="435" height="281" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

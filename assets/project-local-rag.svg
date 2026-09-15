@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436 282" width="436" height="282" role="img" aria-label="Local RAG — Kendi metin dosyaları hakkındaki soruları buluta çıkmadan, tümüyle yerel modelle yanıtlayan RAG uygulaması.">
+  <title>Local RAG — Kendi metin dosyaları hakkındaki soruları buluta çıkmadan, tümüyle yerel modelle yanıtlayan RAG uygulaması.</title>
+  <defs><clipPath id="c"><rect width="436" height="282" rx="12"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="436" height="282" fill="#0d1117"/>
+    <text x="22" y="38" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="650" fill="#e6edf3" letter-spacing="-0.2">Local RAG</text>
+    <text x="414" y="37" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6e7681">furkxndev/foundry-local-rag</text>
+    <rect x="22" y="48" width="26" height="2" rx="1" fill="#58a6ff"/>
+    <text x="22" y="74" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">Kendi metin dosyaları hakkındaki soruları buluta</text>
+    <text x="22" y="92" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">çıkmadan, tümüyle yerel modelle yanıtlayan RAG</text>
+    <text x="22" y="110" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">uygulaması.</text>
+    <rect x="22" y="129" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="136" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Parçalama, TF-IDF vektörleri ve arama dış bağımlılık</text>
+    <text x="34" y="153" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">olmadan saf Python</text>
+    <rect x="22" y="167" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="174" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">SQLite vektör deposu; benzerlik eşiğin altındaysa model</text>
+    <text x="34" y="191" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">hiç çağrılmaz</text>
+    <rect x="22" y="205" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="212" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Kaynaklar arama adımından yazılır — uydurma referans</text>
+    <text x="34" y="229" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">oluşmaz</text>
+    <text x="22" y="262" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6e7681">Python · Foundry Local · Phi-4-mini · SQLite</text>
+    <rect x="0.5" y="0.5" width="435" height="281" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

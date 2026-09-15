@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 244" width="900" height="244" role="img" aria-label="Kullandığım teknolojiler">
+  <title>Kullandığım teknolojiler</title>
+  <defs><clipPath id="c"><rect width="900" height="244" rx="12"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="244" fill="#0d1117"/>
+    <text x="28" y="44" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#c9d1d9">Diller</text>
+    <text x="152" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e">TypeScript · Java · C# · Python · SQL</text>
+    <line x1="28" y1="57" x2="872" y2="57" stroke="#161b22"/>
+    <text x="28" y="78" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#c9d1d9">Backend</text>
+    <text x="152" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e">NestJS · Spring Boot · Node.js · Socket.IO · OpenAPI</text>
+    <line x1="28" y1="91" x2="872" y2="91" stroke="#161b22"/>
+    <text x="28" y="112" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#c9d1d9">Frontend</text>
+    <text x="152" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e">React · Next.js · React Native · Tailwind</text>
+    <line x1="28" y1="125" x2="872" y2="125" stroke="#161b22"/>
+    <text x="28" y="146" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#c9d1d9">Veri</text>
+    <text x="152" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e">PostgreSQL · MySQL · Prisma · TypeORM</text>
+    <line x1="28" y1="159" x2="872" y2="159" stroke="#161b22"/>
+    <text x="28" y="180" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#c9d1d9">Altyapı</text>
+    <text x="152" y="180" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e">Docker · nginx · GitHub Actions</text>
+    <line x1="28" y1="193" x2="872" y2="193" stroke="#161b22"/>
+    <text x="28" y="214" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#c9d1d9">AI</text>
+    <text x="152" y="214" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e">Gemini API · OpenRouter · Foundry Local</text>
+    <rect x="0.5" y="0.5" width="899" height="243" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>

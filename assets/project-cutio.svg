@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436 282" width="436" height="282" role="img" aria-label="Cutio — Randevu tabanlı işletmeler için çok kiracılı platform; işletme kendi randevu bağlantısını paylaşır, müşteri hizmet ve saat seçer.">
+  <title>Cutio — Randevu tabanlı işletmeler için çok kiracılı platform; işletme kendi randevu bağlantısını paylaşır, müşteri hizmet ve saat seçer.</title>
+  <defs><clipPath id="c"><rect width="436" height="282" rx="12"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="436" height="282" fill="#0d1117"/>
+    <text x="22" y="38" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="650" fill="#e6edf3" letter-spacing="-0.2">Cutio</text>
+    <text x="414" y="37" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6e7681">özel repo</text>
+    <rect x="22" y="48" width="26" height="2" rx="1" fill="#58a6ff"/>
+    <text x="22" y="74" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">Randevu tabanlı işletmeler için çok kiracılı platform;</text>
+    <text x="22" y="92" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">işletme kendi randevu bağlantısını paylaşır, müşteri</text>
+    <text x="22" y="110" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">hizmet ve saat seçer.</text>
+    <rect x="22" y="129" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="136" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">tenantId ile veri izolasyonu — her sorgu aktif kiracıyla</text>
+    <text x="34" y="153" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">sınırlı</text>
+    <rect x="22" y="167" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="174" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Müsaitlik motoru çalışma saati, mola, izin ve dolu</text>
+    <text x="34" y="191" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">slotları harmanlar</text>
+    <rect x="22" y="205" width="3" height="3" fill="#484f58"/>
+    <text x="34" y="212" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Arayüz terminolojisi işletmenin sektörüne göre uyarlanır</text>
+    <text x="22" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6e7681">NestJS 11 · TypeORM · PostgreSQL · React 19 · Tailwind v4 ·</text>
+    <text x="22" y="262" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6e7681">Bun</text>
+    <rect x="0.5" y="0.5" width="435" height="281" rx="12" fill="none" stroke="#21262d"/>
+  </g>
+</svg>
