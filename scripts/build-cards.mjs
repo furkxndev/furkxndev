@@ -23,37 +23,37 @@ const TECH = [
   { label: "Backend", accent: "#f78166", items: ["NestJS", "Spring Boot", "Node.js", "Express", "Socket.IO", "JWT", "OpenAPI"] },
   { label: "Veri", accent: "#d29922", items: ["PostgreSQL", "MySQL", "Prisma", "TypeORM", "Sequelize"] },
   { label: "DevOps", accent: "#56d4dd", items: ["Docker", "nginx", "GitHub Actions", "Git", "Bun"] },
-  { label: "Oyun & AI", accent: "#db61a2", items: ["Unity", "C#", "Gemini API", "Playwright"] },
+  { label: "AI & Oyun", accent: "#db61a2", items: ["Gemini API", "OpenRouter", "Foundry Local", "Unity", "Playwright"] },
 ];
 
 /**
- * "Nasıl çalışıyorum" kartı. Satırlar elle bölünmüş: SVG metni kendiliğinden
+ * "Mühendislik yaklaşımım" kartı. Satırlar elle bölünmüş: SVG metni kendiliğinden
  * kaydırmaz, sütun genişliği 199px olduğu için satır başına ~30 karakter sınırı var.
  */
 const ABOUT = [
   {
     index: "01",
     accent: "#58a6ff",
-    title: "Uçtan uca",
-    lines: ["Arayüz, API ve veritabanı", "şeması aynı kafadan çıkar."],
+    title: "Uçtan uca tasarım",
+    lines: ["Veri şeması, API sözleşmesi", "ve arayüz tek bütün olarak", "tasarlanır."],
   },
   {
     index: "02",
     accent: "#3fb950",
-    title: "Bitmiş iş",
-    lines: ["Kimlik doğrulama, gerçek", "zamanlı senkron, ödeme ve", "Docker ile dağıtım dahil."],
+    title: "Üretime hazır",
+    lines: ["Kimlik doğrulama, ödeme,", "izlenebilirlik ve Docker ile", "dağıtım dahil teslim edilir."],
   },
   {
     index: "03",
     accent: "#a371f7",
-    title: "AI merkezde",
-    lines: ["Yapay zekâ süs değil;", "ürünün çekirdeğinde çalışır."],
+    title: "Gerekçeli karar",
+    lines: ["Her teknoloji seçimi bir", "ödünleşimle savunulur;", "ölçmeden optimize edilmez."],
   },
   {
     index: "04",
     accent: "#d29922",
     title: "Otomasyon",
-    lines: ["Tekrar eden işler Playwright", "ve Actions'a devredilir."],
+    lines: ["Tekrar eden işler CI/CD ve", "test otomasyonuna devredilir."],
   },
 ];
 
@@ -144,58 +144,6 @@ const PROJECTS = [
     tech: ["React Native", "Expo SDK 54", "NestJS 11", "TypeORM", "OpenRouter"],
   },
   {
-    slug: "paydas",
-    title: "Paydaş",
-    badge: "furkxndev/paydas",
-    accent: "#58a6ff",
-    desc: "Ev arkadaşlarının ortak giderlerini, faturalarını ve ev işlerini birlikte yönettiği dijital ev asistanı.",
-    bullets: [
-      "Eşit, elle veya yüzdeli bölüşüm — kuruş güvenli dağıtım",
-      "Borçları en az sayıda transfere indirgeyen hesap kapatma",
-      "Tekrarlayan faturalar, görev atama ve yerel hatırlatmalar",
-    ],
-    tech: ["React Native", "Expo", "NestJS", "PostgreSQL", "Docker"],
-  },
-  {
-    slug: "patibak",
-    title: "PatiBak",
-    badge: "furkxndev/patibak",
-    accent: "#db61a2",
-    desc: "Sahiplendirme ve geçici bakıcı eşleştiren uçtan uca mobil platform.",
-    bullets: [
-      "Okundu bilgili gerçek zamanlı mesajlaşma",
-      "JWT + BCrypt oturum, doğrulanmış hesap sistemi",
-      "Güven puanı ve yorum tabanlı profil analizi",
-    ],
-    tech: ["React Native", "Expo Router", "Node.js", "MySQL", "Sequelize"],
-  },
-  {
-    slug: "aifiyet",
-    title: "AIfiyet",
-    badge: "aifiyet.site",
-    accent: "#7ee787",
-    desc: "Eldeki malzemeye göre AI ile tarif ve besin değeri üreten beslenme platformu.",
-    bullets: [
-      "Gemini 2.5 Flash; tehlikeli girdileri reddeden güvenlik katmanı",
-      "Controller → Service → Repository katmanlı mimari",
-      "Docker Compose ile tek komutta ayağa kalkar",
-    ],
-    tech: ["Java 17", "Spring Boot", "JPA", "PostgreSQL", "Gemini API", "Docker"],
-  },
-  {
-    slug: "sinav-bildirim",
-    title: "OBS Not Bildirici",
-    badge: "furkxndev/sinav-bildirim",
-    accent: "#e3b341",
-    desc: "Yeni açıklanan sınav sonuçlarını Telegram'dan bildiren, GitHub Actions üzerinde 7/24 ücretsiz çalışan bot.",
-    bullets: [
-      "Playwright ile oturum açma ve sayfa karşılaştırması",
-      "Gizlilik önceliği: puan değil yalnızca “açıklandı mı” saklanır",
-      "Rastgele gecikme ve saat kısıtıyla engellenmeye karşı korumalı",
-    ],
-    tech: ["Python", "Playwright", "Telegram Bot API", "GitHub Actions"],
-  },
-  {
     slug: "local-rag",
     title: "Local RAG",
     badge: "furkxndev/foundry-local-rag",
@@ -208,32 +156,6 @@ const PROJECTS = [
     ],
     tech: ["Python", "Foundry Local", "Phi-4-mini", "SQLite"],
   },
-  {
-    slug: "karanlik-tuzak",
-    title: "Karanlık Tuzak",
-    badge: "furkxndev/Karanlik-Tuzak",
-    accent: "#f0883e",
-    desc: "Level Devil tarzı, karanlık atmosferli 2D mobil troll platformer. Sahne kurulumu yok; dünya tümüyle kodla ayağa kalkıyor.",
-    bullets: [
-      "Sprite, ses ve geometri dahil her şey runtime'da üretiliyor",
-      "5 seviye: çöken zemin, sahte kapı, ters yerçekimi, ters kontroller",
-      "Coyote-time + jump-buffer ile hassas zıplama hissi",
-    ],
-    tech: ["Unity 2022.3", "C#", "URP 2D", "2D Physics"],
-  },
-  {
-    slug: "top-climbing",
-    title: "Top Climbing",
-    badge: "furkxndev/Top-Climbing",
-    accent: "#79c0ff",
-    desc: "Hill Climb tarzı, fizik tabanlı 2D mobil tırmanma oyunu: sonsuz arazi, yakıt yönetimi ve garaj ekonomisi.",
-    bullets: [
-      "Gövde + iki tekerlek + WheelJoint2D süspansiyonuyla tam fizik sürüş",
-      "Chunk üretimi ve nesne havuzuyla sonsuz prosedürel arazi",
-      "Garaj, upgrade ve kalıcı kayıt dahil eksiksiz UI akışı",
-    ],
-    tech: ["Unity 2022.3", "C#", "URP 2D", "PlayerPrefs"],
-  },
 ];
 
 /**
@@ -243,10 +165,10 @@ const PROJECTS = [
 const TERMINAL = {
   titleBar: "furkan@github — zsh",
   blocks: [
-    { cmd: "whoami", out: "Furkan Coşkun · Full-stack Geliştirici", fill: "#8b949e" },
-    { cmd: "cat odak.txt", out: "gerçek zamanlı sistemler · ödeme akışları · LLM destekli ürünler", fill: "#8b949e" },
-    { cmd: "ls -1 vitrin/", out: "kosfet  cutio  masapp  gezio  styla  paydas  patibak  aifiyet", fill: "#58a6ff" },
-    { cmd: "cat durum.txt", out: "Viofun'da stajyer · Cutio ve Koşfet üzerinde çalışıyorum", fill: "#8b949e" },
+    { cmd: "whoami", out: "Furkan Coşkun · Bilgisayar Mühendisi", fill: "#8b949e" },
+    { cmd: "cat odak.txt", out: "dağıtık sistem tasarımı · gerçek zamanlı senkron · LLM tabanlı ürünler", fill: "#8b949e" },
+    { cmd: "ls -1 vitrin/", out: "kosfet  cutio  masapp  gezio  styla  local-rag", fill: "#58a6ff" },
+    { cmd: "cat durum.txt", out: "Viofun'da mühendislik stajyeri · Cutio ve Koşfet'i geliştiriyorum", fill: "#8b949e" },
   ],
 };
 
@@ -283,7 +205,7 @@ ${body}
 `;
 }
 
-// -------------------------------------------------------------- nasıl çalışırım
+// --------------------------------------------------- mühendislik yaklaşımı
 
 function aboutCard() {
   const W = 900;
@@ -296,7 +218,7 @@ function aboutCard() {
   const H = 118 + (maxLines - 1) * LINE_H + 28;
 
   let body = `
-    <text x="${X0}" y="34" font-family="${SANS}" font-size="14" font-weight="600" fill="#58a6ff" letter-spacing="0.4">Nasıl çalışıyorum</text>`;
+    <text x="${X0}" y="34" font-family="${SANS}" font-size="14" font-weight="600" fill="#58a6ff" letter-spacing="0.4">Mühendislik yaklaşımım</text>`;
 
   ABOUT.forEach((item, i) => {
     const x = X0 + i * (COL_W + GAP);
@@ -325,7 +247,7 @@ function aboutCard() {
     </g>`;
   });
 
-  return shell(W, H, "Nasıl çalışıyorum", body);
+  return shell(W, H, "Mühendislik yaklaşımım", body);
 }
 
 // ---------------------------------------------------------------- teknolojiler
@@ -488,7 +410,7 @@ function terminalCard() {
   const TOP = 92; // ilk komut satırının taban çizgisi
   const OUT_DY = 26;
   const BLOCK_H = 60;
-  const DUR = "18s";
+  const DUR = "24s";
 
   const blocks = TERMINAL.blocks;
   const H = TOP + BLOCK_H * blocks.length + 20;

@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://furkxndev.com">
-    <img src="assets/header.svg" width="100%" alt="Furkan Coşkun — Full-stack Geliştirici">
+    <img src="assets/header.svg" width="100%" alt="Furkan Coşkun — Bilgisayar Mühendisi">
   </a>
 </div>
 
@@ -13,12 +13,12 @@
 <br>
 
 <div align="center">
-  <img width="100%" alt="Nasıl çalışıyorum" src="assets/about.svg">
+  <img width="100%" alt="Mühendislik yaklaşımım" src="assets/about.svg">
 </div>
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="22"> &nbsp;Teknolojiler
+## Teknolojiler
 
 <div align="center">
   <img width="100%" alt="Kullandığım teknolojiler" src="assets/tech.svg">
@@ -26,7 +26,7 @@
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="22"> &nbsp;Öne Çıkan Projeler
+## Öne Çıkan Projeler
 
 <table>
 <tr>
@@ -50,36 +50,30 @@
 <a href="https://github.com/furkxndev/styla"><img width="100%" alt="Styla — AI kişisel stil asistanı" src="assets/project-styla.svg"></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/furkxndev/paydas"><img width="100%" alt="Paydaş — ortak gider ve ev yönetimi" src="assets/project-paydas.svg"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/furkxndev/patibak"><img width="100%" alt="PatiBak — sahiplendirme ve geçici bakım platformu" src="assets/project-patibak.svg"></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://aifiyet.site"><img width="100%" alt="AIfiyet — AI destekli beslenme platformu" src="assets/project-aifiyet.svg"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/furkxndev/sinav-bildirim"><img width="100%" alt="OBS Not Bildirici — Telegram bildirim botu" src="assets/project-sinav-bildirim.svg"></a>
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/furkxndev/foundry-local-rag"><img width="100%" alt="Local RAG — tümüyle yerelde çalışan RAG uygulaması" src="assets/project-local-rag.svg"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/furkxndev/Karanlik-Tuzak"><img width="100%" alt="Karanlık Tuzak — Unity ile 2D troll platformer" src="assets/project-karanlik-tuzak.svg"></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/furkxndev/Top-Climbing"><img width="100%" alt="Top Climbing — fizik tabanlı 2D tırmanma oyunu" src="assets/project-top-climbing.svg"></a>
 </td>
 </tr>
 </table>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="22"> &nbsp;Deneyim & Eğitim
+<details>
+<summary><b>Diğer çalışmalar</b></summary>
+
+<br>
+
+| Proje | Açıklama | Teknolojiler |
+| :--- | :--- | :--- |
+| [Paydaş](https://github.com/furkxndev/paydas) | Ev arkadaşları için ortak gider, fatura ve görev yönetimi | React Native · NestJS · PostgreSQL |
+| [PatiBak](https://github.com/furkxndev/patibak) | Sahiplendirme ve geçici bakıcı eşleştirme platformu | React Native · Node.js · MySQL |
+| [AIfiyet](https://github.com/furkxndev/aifiyet) | Eldeki malzemeye göre tarif ve besin değeri üreten platform | Java 17 · Spring Boot · Gemini API |
+| [OBS Not Bildirici](https://github.com/furkxndev/sinav-bildirim) | Sınav sonuçlarını Telegram'dan bildiren, Actions'ta çalışan bot | Python · Playwright · GitHub Actions |
+| [Karanlık Tuzak](https://github.com/furkxndev/Karanlik-Tuzak) | Sahne kurulumu olmadan, tümüyle kodla üretilen 2D platformer | Unity · C# · URP 2D |
+| [Top Climbing](https://github.com/furkxndev/Top-Climbing) | Prosedürel arazi ve tam fizik sürüşlü tırmanma oyunu | Unity · C# · 2D Physics |
+
+</details>
+
+<br>
+
+## Deneyim & Eğitim
 
 <div align="center">
   <img width="100%" alt="Deneyim ve eğitim" src="assets/experience.svg">
@@ -87,7 +81,7 @@
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="22"> &nbsp;GitHub
+## GitHub
 
 <div align="center">
   <img width="49%" alt="GitHub istatistikleri" src="assets/stats.svg">
@@ -96,19 +90,9 @@
 
 <br>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-light.svg">
-    <img alt="Katkı grafiğimi yiyen yılan animasyonu" src="https://raw.githubusercontent.com/furkxndev/furkxndev/output/snake-dark.svg">
-  </picture>
-</div>
+## İletişim
 
-<br>
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Envelope.png" width="22"> &nbsp;İletişim
-
-Bir fikri konuşmak, birlikte bir şey kurmak ya da sadece merhaba demek için: en hızlısı e-posta.
+Proje iş birlikleri, staj ve iş fırsatları için en hızlı yol e-posta.
 
 <p align="center">
   <a href="mailto:furkxndev@gmail.com"><img width="24%" alt="E-posta: furkxndev@gmail.com" src="assets/contact-mail.svg"></a>

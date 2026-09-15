@@ -4,28 +4,28 @@
   <defs>
     <clipPath id="win"><rect x="0" y="0" width="900" height="352" rx="12"/></clipPath>
     <clipPath id="c0a"><rect x="30" y="76" height="22" width="0">
-      <animate attributeName="width" values="0;0;78;78" keyTimes="0;0.02;0.083;1" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;78;78" keyTimes="0;0.02;0.083;1" dur="24s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="c0b"><rect x="30" y="102" height="22" width="0">
-      <animate attributeName="width" values="0;0;348;348" keyTimes="0;0.11;0.2;1" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;330;330" keyTimes="0;0.11;0.2;1" dur="24s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="c1a"><rect x="30" y="136" height="22" width="0">
-      <animate attributeName="width" values="0;0;132;132" keyTimes="0;0.245;0.308;1" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;132;132" keyTimes="0;0.245;0.308;1" dur="24s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="c1b"><rect x="30" y="162" height="22" width="0">
-      <animate attributeName="width" values="0;0;582;582" keyTimes="0;0.335;0.425;1" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;636;636" keyTimes="0;0.335;0.425;1" dur="24s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="c2a"><rect x="30" y="196" height="22" width="0">
-      <animate attributeName="width" values="0;0;141;141" keyTimes="0;0.47;0.533;1" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;141;141" keyTimes="0;0.47;0.533;1" dur="24s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="c2b"><rect x="30" y="222" height="22" width="0">
-      <animate attributeName="width" values="0;0;555;555" keyTimes="0;0.56;0.65;1" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;420;420" keyTimes="0;0.56;0.65;1" dur="24s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="c3a"><rect x="30" y="256" height="22" width="0">
-      <animate attributeName="width" values="0;0;141;141" keyTimes="0;0.695;0.758;1" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;141;141" keyTimes="0;0.695;0.758;1" dur="24s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="c3b"><rect x="30" y="282" height="22" width="0">
-      <animate attributeName="width" values="0;0;510;510" keyTimes="0;0.785;0.875;1" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;591;591" keyTimes="0;0.785;0.875;1" dur="24s" repeatCount="indefinite"/>
     </rect></clipPath>
   </defs>
 
@@ -44,29 +44,29 @@
         <text x="30" y="92"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> whoami</tspan></text>
       </g>
       <g clip-path="url(#c0b)">
-        <text x="30" y="118" fill="#8b949e">Furkan Coşkun · Full-stack Geliştirici</text>
+        <text x="30" y="118" fill="#8b949e">Furkan Coşkun · Bilgisayar Mühendisi</text>
       </g>
       <g clip-path="url(#c1a)">
         <text x="30" y="152"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> cat odak.txt</tspan></text>
       </g>
       <g clip-path="url(#c1b)">
-        <text x="30" y="178" fill="#8b949e">gerçek zamanlı sistemler · ödeme akışları · LLM destekli ürünler</text>
+        <text x="30" y="178" fill="#8b949e">dağıtık sistem tasarımı · gerçek zamanlı senkron · LLM tabanlı ürünler</text>
       </g>
       <g clip-path="url(#c2a)">
         <text x="30" y="212"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> ls -1 vitrin/</tspan></text>
       </g>
       <g clip-path="url(#c2b)">
-        <text x="30" y="238" fill="#58a6ff">kosfet  cutio  masapp  gezio  styla  paydas  patibak  aifiyet</text>
+        <text x="30" y="238" fill="#58a6ff">kosfet  cutio  masapp  gezio  styla  local-rag</text>
       </g>
       <g clip-path="url(#c3a)">
         <text x="30" y="272"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> cat durum.txt</tspan></text>
       </g>
       <g clip-path="url(#c3b)">
-        <text x="30" y="298" fill="#8b949e">Viofun'da stajyer · Cutio ve Koşfet üzerinde çalışıyorum</text>
+        <text x="30" y="298" fill="#8b949e">Viofun'da mühendislik stajyeri · Cutio ve Koşfet'i geliştiriyorum</text>
       </g>
 
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.92;0.940;1" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.92;0.940;1" dur="24s" repeatCount="indefinite"/>
         <text x="30" y="332" fill="#3fb950">$</text>
         <rect x="44" y="317" width="9" height="18" fill="#58a6ff">
           <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>

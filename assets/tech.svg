@@ -192,27 +192,32 @@
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.230;0.330;1" dur="2.2s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.230;0.330;1" dur="2.2s" fill="freeze"/>
       <rect x="24" y="285" width="3" height="12" rx="1.5" fill="#db61a2"/>
-      <text x="37" y="295.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Oyun &amp; AI</text>
+      <text x="37" y="295.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">AI &amp; Oyun</text>
     </g>
       <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.762;0.862;1" dur="2.2s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.762;0.862;1" dur="2.2s" fill="freeze"/>
-        <rect x="148" y="278" width="60" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
-        <text x="159" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Unity</text>
+        <rect x="148" y="278" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="159" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Gemini API</text>
       </g>
       <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.784;0.884;1" dur="2.2s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.784;0.884;1" dur="2.2s" fill="freeze"/>
-        <rect x="215" y="278" width="37" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
-        <text x="226" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">C#</text>
+        <rect x="252" y="278" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="263" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">OpenRouter</text>
       </g>
       <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.806;0.906;1" dur="2.2s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.806;0.906;1" dur="2.2s" fill="freeze"/>
-        <rect x="259" y="278" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
-        <text x="270" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Gemini API</text>
+        <rect x="356" y="278" width="120" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="367" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Foundry Local</text>
       </g>
       <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.828;0.928;1" dur="2.2s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.828;0.928;1" dur="2.2s" fill="freeze"/>
-        <rect x="363" y="278" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
-        <text x="374" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Playwright</text>
+        <rect x="483" y="278" width="60" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="494" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Unity</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.850;0.950;1" dur="2.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 6;0 6;0 0;0 0" keyTimes="0;0.850;0.950;1" dur="2.2s" fill="freeze"/>
+        <rect x="550" y="278" width="97" height="26" rx="7" fill="#161b22" stroke="#21262d"/>
+        <text x="561" y="295.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#c9d1d9">Playwright</text>
       </g>
     <rect x="0.5" y="0.5" width="899" height="321" rx="12" fill="none" stroke="#21262d"/>
   </g>

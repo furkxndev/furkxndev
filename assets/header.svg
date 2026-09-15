@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="Furkan Coşkun — Full-stack Geliştirici">
-  <title>Furkan Coşkun — Full-stack Geliştirici</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="Furkan Coşkun — Bilgisayar Mühendisi">
+  <title>Furkan Coşkun — Bilgisayar Mühendisi</title>
 
   <defs>
     <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
@@ -21,7 +21,7 @@
       <stop offset="58%" stop-color="#e6edf3"/>
       <stop offset="100%" stop-color="#e6edf3"/>
       <animateTransform attributeName="gradientTransform" type="translate"
-                        from="-420 0" to="0 0" dur="7s" repeatCount="indefinite"/>
+                        from="-420 0" to="0 0" dur="14s" repeatCount="indefinite"/>
     </linearGradient>
 
     <radialGradient id="orbBlue" cx="50%" cy="50%" r="50%">
@@ -43,16 +43,16 @@
     </clipPath>
 
     <clipPath id="t0"><rect x="72" y="130" height="28" width="0">
-      <animate attributeName="width" values="0;322;322" keyTimes="0;0.075;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;288;288" keyTimes="0;0.075;1" dur="20s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="t1"><rect x="72" y="130" height="28" width="0">
-      <animate attributeName="width" values="0;0;299;299" keyTimes="0;0.25;0.325;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;357;357" keyTimes="0;0.25;0.325;1" dur="20s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="t2"><rect x="72" y="130" height="28" width="0">
-      <animate attributeName="width" values="0;0;333;333" keyTimes="0;0.5;0.575;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;311;311" keyTimes="0;0.5;0.575;1" dur="20s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="t3"><rect x="72" y="130" height="28" width="0">
-      <animate attributeName="width" values="0;0;345;345" keyTimes="0;0.75;0.825;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;402;402" keyTimes="0;0.75;0.825;1" dur="20s" repeatCount="indefinite"/>
     </rect></clipPath>
   </defs>
 
@@ -93,7 +93,7 @@
 
     <!-- içerik -->
     <text x="48" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#6e7681" letter-spacing="1.5">~/github.com/furkxndev</text>
+          font-size="13" fill="#58a6ff" letter-spacing="2.4">BİLGİSAYAR MÜHENDİSİ</text>
 
     <text x="48" y="108" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="44" font-weight="700" fill="url(#nameSweep)" letter-spacing="-0.5">Furkan Coşkun</text>
@@ -103,41 +103,41 @@
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#c9d1d9">
       <g opacity="1">
-        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.225;0.25;1" dur="16s" repeatCount="indefinite"/>
-        <g clip-path="url(#t0)"><text x="76" y="151">Full-stack ürün geliştirme</text></g>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.225;0.25;1" dur="20s" repeatCount="indefinite"/>
+        <g clip-path="url(#t0)"><text x="76" y="151">Dağıtık sistem tasarımı</text></g>
         <rect y="134" width="9" height="21" fill="#58a6ff" x="76">
-          <animate attributeName="x" values="76;377;377" keyTimes="0;0.075;1" dur="16s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="76;342;342" keyTimes="0;0.075;1" dur="20s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
         </rect>
       </g>
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.2501;0.475;0.5;1" dur="16s" repeatCount="indefinite"/>
-        <g clip-path="url(#t1)"><text x="76" y="151">Gerçek zamanlı sistemler</text></g>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.2501;0.475;0.5;1" dur="20s" repeatCount="indefinite"/>
+        <g clip-path="url(#t1)"><text x="76" y="151">Gerçek zamanlı senkronizasyon</text></g>
         <rect y="134" width="9" height="21" fill="#58a6ff" x="76">
-          <animate attributeName="x" values="76;76;354;354" keyTimes="0;0.25;0.325;1" dur="16s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="76;76;411;411" keyTimes="0;0.25;0.325;1" dur="20s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
         </rect>
       </g>
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.5001;0.725;0.75;1" dur="16s" repeatCount="indefinite"/>
-        <g clip-path="url(#t2)"><text x="76" y="151">Yapay zekâ destekli ürünler</text></g>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.5001;0.725;0.75;1" dur="20s" repeatCount="indefinite"/>
+        <g clip-path="url(#t2)"><text x="76" y="151">LLM tabanlı ürün mimarisi</text></g>
         <rect y="134" width="9" height="21" fill="#58a6ff" x="76">
-          <animate attributeName="x" values="76;76;388;388" keyTimes="0;0.5;0.575;1" dur="16s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="76;76;365;365" keyTimes="0;0.5;0.575;1" dur="20s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
         </rect>
       </g>
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.7501;0.975;1" dur="16s" repeatCount="indefinite"/>
-        <g clip-path="url(#t3)"><text x="76" y="151">Unity ile 2D oyun geliştirme</text></g>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.7501;0.975;1" dur="20s" repeatCount="indefinite"/>
+        <g clip-path="url(#t3)"><text x="76" y="151">Ölçeklenebilir backend servisleri</text></g>
         <rect y="134" width="9" height="21" fill="#58a6ff" x="76">
-          <animate attributeName="x" values="76;76;400;400" keyTimes="0;0.75;0.825;1" dur="16s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="76;76;456;456" keyTimes="0;0.75;0.825;1" dur="20s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
         </rect>
       </g>
     </g>
 
     <g font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#6e7681">
-      <text x="48" y="196">Bilgisayar Mühendisliği · Fırat Üniversitesi · Antalya, Türkiye</text>
+      <text x="48" y="196">Fırat Üniversitesi · Bilgisayar Mühendisliği · Antalya, Türkiye</text>
     </g>
 
     <g transform="translate(48, 210)">
@@ -149,7 +149,7 @@
         <animate attributeName="opacity" values="0.6;0;0" dur="2.6s" repeatCount="indefinite"/>
       </circle>
       <text x="20" y="10" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
-            font-size="13.5" fill="#3fb950">Yeni projelere ve iş birliklerine açık</text>
+            font-size="13.5" fill="#3fb950">Yeni fırsatlara ve iş birliklerine açık</text>
     </g>
 
     <rect x="0.5" y="0.5" width="899" height="239" rx="16" fill="none" stroke="#21262d"/>
